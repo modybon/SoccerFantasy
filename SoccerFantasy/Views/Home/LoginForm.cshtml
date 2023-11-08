@@ -1,0 +1,32 @@
+﻿@model SoccerFantasy.Models.User
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>User Register Form</title>
+</head>
+<body>
+    <h1>Register</h1>
+    <form>
+        <div>
+            <label>Enter Username:</label>
+            @Html.TextBoxFor(x => x.username)
+        </div>
+
+        <div>
+            <label>Enter Password:</label>
+            @Html.TextBoxFor(x => x.password)
+        </div>
+    </form>
+
+    <div class="text-center">
+        <input type="submit" value="Login" />
+    </div>
+
+</body>
+</html>

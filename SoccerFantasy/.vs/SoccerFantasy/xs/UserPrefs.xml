@@ -1,0 +1,31 @@
+﻿<Properties StartupConfiguration="{42145FD6-CB48-44F7-A8D9-FCFE43ED93F5}|https">
+  <MonoDevelop.Ide.ItemProperties.SoccerFantasy PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Models/DataInit.cs">
+    <Files>
+      <File FileName="Views/Home/Players.cshtml" Line="137" Column="54" />
+      <File FileName="wwwroot/lib/flag-icons-main/css/flag-icons.min.css" Line="1" Column="19071" />
+      <File FileName="Models/DataContext.cs" Line="1" Column="1" />
+      <File FileName="Models/DataInit.cs" Line="31" Column="57" />
+      <File FileName="Models/Player.cs" Line="30" Column="9" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="SoccerFantasy" expanded="True">
+            <Node name="SoccerFantasy">
+              <Node name="Models">
+                <Node name="DataInit.cs" selected="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+</Properties>

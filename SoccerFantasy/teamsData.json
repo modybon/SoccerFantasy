@@ -1,0 +1,4602 @@
+[
+    {
+        "name": "Arsenal",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/18bb7c10.png",
+        "players": [
+            {
+                "name": "William Saliba",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "22-216",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Ben White",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "26-018",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Martin Ødegaard",
+                "team": "Arsenal",
+                "position": "MF",
+                "age": "24-313",
+                "nationality": "NOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NOR.png"
+            },
+            {
+                "name": "Declan Rice",
+                "team": "Arsenal",
+                "position": "MF",
+                "age": "24-285",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Bukayo Saka",
+                "team": "Arsenal",
+                "position": "FW",
+                "age": "22-051",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Eddie Nketiah",
+                "team": "Arsenal",
+                "position": "FW",
+                "age": "24-149",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Gabriel Dos Santos",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "25-311",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Gabriel Martinelli",
+                "team": "Arsenal",
+                "position": "FW",
+                "age": "22-130",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Oleksandr Zinchenko",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "26-315",
+                "nationality": "UKR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/UKR.png"
+            },
+            {
+                "name": "Kai Havertz",
+                "team": "Arsenal",
+                "position": "MF,FW",
+                "age": "24-137",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "David Raya",
+                "team": "Arsenal",
+                "position": "GK",
+                "age": "28-041",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Gabriel Jesus",
+                "team": "Arsenal",
+                "position": "FW",
+                "age": "26-206",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Aaron Ramsdale",
+                "team": "Arsenal",
+                "position": "GK",
+                "age": "25-165",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Thomas Partey",
+                "team": "Arsenal",
+                "position": "DF,MF",
+                "age": "30-135",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "Jorginho",
+                "team": "Arsenal",
+                "position": "MF",
+                "age": "31-310",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Fabio Vieira",
+                "team": "Arsenal",
+                "position": "MF",
+                "age": "23-149",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Leandro Trossard",
+                "team": "Arsenal",
+                "position": "FW",
+                "age": "28-326",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Takehiro Tomiyasu",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "24-355",
+                "nationality": "JPN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JPN.png"
+            },
+            {
+                "name": "Jakub Kiwior",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "23-253",
+                "nationality": "POL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POL.png"
+            },
+            {
+                "name": "Jurriën Timber",
+                "team": "Arsenal",
+                "position": "DF",
+                "age": "22-131",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Reiss Nelson",
+                "team": "Arsenal",
+                "position": "FW",
+                "age": "23-320",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Emile Smith Rowe",
+                "team": "Arsenal",
+                "position": "MF",
+                "age": "23-090",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Mohamed Elneny",
+                "team": "Arsenal",
+                "position": "MF",
+                "age": "31-107",
+                "nationality": "EGY",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/EGY.png"
+            },
+            {
+                "name": "Karl Jakob Hein",
+                "team": "Arsenal",
+                "position": "GK",
+                "age": "21-196",
+                "nationality": "EST",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/EST.png"
+            },
+            {
+                "name": "Cédric Soares",
+                "team": "Arsenal",
+                "position": "DF,MF",
+                "age": "32-056",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            }
+        ]
+    },
+    {
+        "name": "Aston Villa",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/8602292d.png",
+        "players": [
+            {
+                "name": "Ezri Konsa",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "26-003",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Lucas Digne",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "30-098",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Matty Cash",
+                "team": "Aston Villa",
+                "position": "DF,MF",
+                "age": "26-080",
+                "nationality": "POL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POL.png"
+            },
+            {
+                "name": "Ollie Watkins",
+                "team": "Aston Villa",
+                "position": "FW",
+                "age": "27-300",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Boubacar Kamara",
+                "team": "Aston Villa",
+                "position": "MF",
+                "age": "23-337",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Douglas Luiz",
+                "team": "Aston Villa",
+                "position": "MF",
+                "age": "25-170",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "John McGinn",
+                "team": "Aston Villa",
+                "position": "MF,FW",
+                "age": "29-008",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Moussa Diaby",
+                "team": "Aston Villa",
+                "position": "MF,FW",
+                "age": "24-111",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Pau Torres",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "26-283",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Emiliano Martínez",
+                "team": "Aston Villa",
+                "position": "GK",
+                "age": "31-054",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Nicolò Zaniolo",
+                "team": "Aston Villa",
+                "position": "FW,MF",
+                "age": "24-116",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Diego Carlos",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "30-225",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Leon Bailey",
+                "team": "Aston Villa",
+                "position": "FW,MF",
+                "age": "26-078",
+                "nationality": "JAM",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JAM.png"
+            },
+            {
+                "name": "Robin Olsen",
+                "team": "Aston Villa",
+                "position": "GK",
+                "age": "33-291",
+                "nationality": "SWE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SWE.png"
+            },
+            {
+                "name": "Tyrone Mings",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "30-227",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Youri Tielemans",
+                "team": "Aston Villa",
+                "position": "MF,FW",
+                "age": "26-172",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Jhon Durán",
+                "team": "Aston Villa",
+                "position": "FW,MF",
+                "age": "19-317",
+                "nationality": "COL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COL.png"
+            },
+            {
+                "name": "Jacob Ramsey",
+                "team": "Aston Villa",
+                "position": "FW,MF",
+                "age": "22-151",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Philippe Coutinho",
+                "team": "Aston Villa",
+                "position": "MF,FW",
+                "age": "31-136",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Bertrand Traoré",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "28-050",
+                "nationality": "BFA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BFA.png"
+            },
+            {
+                "name": "Cameron Archer",
+                "team": "Aston Villa",
+                "position": "MF",
+                "age": "22-097",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jaden Philogene Bidace",
+                "team": "Aston Villa",
+                "position": "FW",
+                "age": "21-260",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Leander Dendoncker",
+                "team": "Aston Villa",
+                "position": "MF,FW",
+                "age": "28-194",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Calum Chambers",
+                "team": "Aston Villa",
+                "position": "DF,MF",
+                "age": "28-279",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Omari Kellyman",
+                "team": "Aston Villa",
+                "position": "MF",
+                "age": "",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Clément Lenglet",
+                "team": "Aston Villa",
+                "position": "DF",
+                "age": "28-131",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Filip Marshall",
+                "team": "Aston Villa",
+                "position": "GK",
+                "age": "20-185",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Álex Moreno",
+                "team": "Aston Villa",
+                "position": "DF,MF",
+                "age": "30-140",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Oliwier Zych",
+                "team": "Aston Villa",
+                "position": "GK",
+                "age": "19-120",
+                "nationality": "POL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POL.png"
+            }
+        ]
+    },
+    {
+        "name": "Bournemouth",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/4ba7cbea.png",
+        "players": [
+            {
+                "name": "Neto",
+                "team": "Bournemouth",
+                "position": "GK",
+                "age": "34-099",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Illia Zabarnyi",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "21-055",
+                "nationality": "UKR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/UKR.png"
+            },
+            {
+                "name": "Dominic Solanke",
+                "team": "Bournemouth",
+                "position": "FW",
+                "age": "26-042",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Philip Billing",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "27-137",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Milos Kerkez",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "19-353",
+                "nationality": "HUN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/HUN.png"
+            },
+            {
+                "name": "Max Aarons",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "23-295",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ryan Christie",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "28-246",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Lewis Cook",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "26-265",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Marcos Senesi",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "26-169",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Marcus Tavernier",
+                "team": "Bournemouth",
+                "position": "FW",
+                "age": "24-218",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Lloyd Kelly",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "25-020",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Justin Kluivert",
+                "team": "Bournemouth",
+                "position": "FW",
+                "age": "24-174",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Joe Rothwell",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "28-288",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Antoine Semenyo",
+                "team": "Bournemouth",
+                "position": "FW,MF",
+                "age": "23-292",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "David Brooks",
+                "team": "Bournemouth",
+                "position": "FW,MF",
+                "age": "26-110",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Dango Ouattara",
+                "team": "Bournemouth",
+                "position": "FW",
+                "age": "21-257",
+                "nationality": "BFA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BFA.png"
+            },
+            {
+                "name": "Jaidon Anthony",
+                "team": "Bournemouth",
+                "position": "FW",
+                "age": "23-329",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Adam Smith",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "32-180",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Alex Scott",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "20-066",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Kieffer Moore",
+                "team": "Bournemouth",
+                "position": "FW,MF",
+                "age": "31-079",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Luis Sinisterra",
+                "team": "Bournemouth",
+                "position": "FW,MF",
+                "age": "24-131",
+                "nationality": "COL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COL.png"
+            },
+            {
+                "name": "Hamed Junior Traorè",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "23-252",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Chris Mepham",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "25-355",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "James Hill",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "21-289",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ben Greenwood",
+                "team": "Bournemouth",
+                "position": "DF",
+                "age": "20-248",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Gavin Kilkenny",
+                "team": "Bournemouth",
+                "position": "MF",
+                "age": "23-267",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Ionuț Radu",
+                "team": "Bournemouth",
+                "position": "GK",
+                "age": "26-151",
+                "nationality": "ROU",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ROU.png"
+            }
+        ]
+    },
+    {
+        "name": "Brentford",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/cd051869.png",
+        "players": [
+            {
+                "name": "Bryan Mbeumo",
+                "team": "Brentford",
+                "position": "FW,DF",
+                "age": "24-080",
+                "nationality": "CMR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CMR.png"
+            },
+            {
+                "name": "Ethan Pinnock",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "30-150",
+                "nationality": "JAM",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JAM.png"
+            },
+            {
+                "name": "Christian Nørgaard",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "29-230",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Yoane Wissa",
+                "team": "Brentford",
+                "position": "FW",
+                "age": "27-053",
+                "nationality": "COD",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COD.png"
+            },
+            {
+                "name": "Vitaly Janelt",
+                "team": "Brentford",
+                "position": "MF,DF",
+                "age": "25-169",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Mathias Jensen",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "27-298",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Nathan Collins",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "22-179",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Mark Flekken",
+                "team": "Brentford",
+                "position": "GK",
+                "age": "30-135",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Aaron Hickey",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "21-138",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Rico Henry",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "26-110",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Kristoffer Ajer",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "25-192",
+                "nationality": "NOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NOR.png"
+            },
+            {
+                "name": "Kevin Schade",
+                "team": "Brentford",
+                "position": "FW,MF",
+                "age": "21-333",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Mads Roerslev",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "24-124",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Keane Lewis-Potter",
+                "team": "Brentford",
+                "position": "FW",
+                "age": "22-246",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ben Mee",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "34-035",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Frank Onyeka",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "25-298",
+                "nationality": "NGA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NGA.png"
+            },
+            {
+                "name": "Neal Maupay",
+                "team": "Brentford",
+                "position": "FW",
+                "age": "27-073",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Thomas Strakosha",
+                "team": "Brentford",
+                "position": "GK",
+                "age": "28-221",
+                "nationality": "ALB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ALB.png"
+            },
+            {
+                "name": "Saman Ghoddos",
+                "team": "Brentford",
+                "position": "DF,MF",
+                "age": "30-050",
+                "nationality": "IRN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRN.png"
+            },
+            {
+                "name": "Mikkel Damsgaard",
+                "team": "Brentford",
+                "position": "MF,FW",
+                "age": "23-115",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Shandon Baptiste",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "25-201",
+                "nationality": "GRN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GRN.png"
+            },
+            {
+                "name": "Michael Olakigbe",
+                "team": "Brentford",
+                "position": "FW,MF",
+                "age": "19-184",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Yehor Yarmoliuk",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "19-239",
+                "nationality": "UKR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/UKR.png"
+            },
+            {
+                "name": "Josh Dasilva",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "25-003",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Mathias Jørgensen",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "33-186",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Ellery Balcombe",
+                "team": "Brentford",
+                "position": "GK",
+                "age": "24-011",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ethan Brierley",
+                "team": "Brentford",
+                "position": "MF",
+                "age": "19-337",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Kim Jisoo",
+                "team": "Brentford",
+                "position": "DF",
+                "age": "18-306",
+                "nationality": "KOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/KOR.png"
+            }
+        ]
+    },
+    {
+        "name": "Brighton",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/d07537b9.png",
+        "players": [
+            {
+                "name": "Lewis Dunk",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "31-339",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Kaoru Mitoma",
+                "team": "Brighton",
+                "position": "FW",
+                "age": "26-159",
+                "nationality": "JPN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JPN.png"
+            },
+            {
+                "name": "Pascal Groß",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "32-133",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Solly March",
+                "team": "Brighton",
+                "position": "FW,DF",
+                "age": "29-098",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Danny Welbeck",
+                "team": "Brighton",
+                "position": "FW,MF",
+                "age": "32-334",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Pervis Estupiñán",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "25-278",
+                "nationality": "ECU",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ECU.png"
+            },
+            {
+                "name": "Joël Veltman",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "31-284",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Billy Gilmour",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "22-137",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Jason Steele",
+                "team": "Brighton",
+                "position": "GK",
+                "age": "33-069",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Evan Ferguson",
+                "team": "Brighton",
+                "position": "FW",
+                "age": "19-007",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "João Pedro",
+                "team": "Brighton",
+                "position": "MF,FW",
+                "age": "22-030",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Simon Adingra",
+                "team": "Brighton",
+                "position": "FW,MF",
+                "age": "21-298",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Bart Verbruggen",
+                "team": "Brighton",
+                "position": "GK",
+                "age": "21-069",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Adam Webster",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "28-295",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Milner",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "37-295",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jan Paul van Hecke",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "23-140",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Mahmoud Dahoud",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "27-298",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Carlos Baleba",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "19-296",
+                "nationality": "CMR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CMR.png"
+            },
+            {
+                "name": "Igor",
+                "team": "Brighton",
+                "position": "DF",
+                "age": "25-261",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Tariq Lamptey",
+                "team": "Brighton",
+                "position": "DF,FW",
+                "age": "23-026",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "Adam Lallana",
+                "team": "Brighton",
+                "position": "MF,FW",
+                "age": "35-169",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jack Hinshelwood",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "18-198",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Julio César Enciso",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "19-276",
+                "nationality": "PAR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/PAR.png"
+            },
+            {
+                "name": "Facundo Buonanotte",
+                "team": "Brighton",
+                "position": "FW",
+                "age": "18-307",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Ansu Fati",
+                "team": "Brighton",
+                "position": "MF,FW",
+                "age": "20-360",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Steven Alzate",
+                "team": "Brighton",
+                "position": "MF",
+                "age": "25-048",
+                "nationality": "COL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COL.png"
+            }
+        ]
+    },
+    {
+        "name": "Burnley",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/943e8050.png",
+        "players": [
+            {
+                "name": "James Trafford",
+                "team": "Burnley",
+                "position": "GK",
+                "age": "21-016",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Josh Cullen",
+                "team": "Burnley",
+                "position": "MF",
+                "age": "27-202",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Ameen Al-Dakhil",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "21-234",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Connor Roberts",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "28-033",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Zeki Amdouni",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "22-326",
+                "nationality": "SUI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SUI.png"
+            },
+            {
+                "name": "Lyle Foster",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "23-053",
+                "nationality": "RSA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/RSA.png"
+            },
+            {
+                "name": "Sander Berge",
+                "team": "Burnley",
+                "position": "MF",
+                "age": "25-254",
+                "nationality": "NOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NOR.png"
+            },
+            {
+                "name": "Luca Koleosho",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "19-041",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Charlie Taylor",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "30-038",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jordan Beyer",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "23-160",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Josh Brownhill",
+                "team": "Burnley",
+                "position": "MF",
+                "age": "27-311",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Dara O'Shea",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "24-236",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Jóhann Berg Guðmundsson",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "32-364",
+                "nationality": "ISL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ISL.png"
+            },
+            {
+                "name": "Hannes Delcroix",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "24-240",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Mike Trésor",
+                "team": "Burnley",
+                "position": "FW",
+                "age": "24-151",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Aaron Ramsey",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "20-278",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Vitinho",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "24-095",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Wilson Odobert",
+                "team": "Burnley",
+                "position": "FW",
+                "age": "18-332",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Benson Manuel",
+                "team": "Burnley",
+                "position": "MF,FW",
+                "age": "26-212",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Jacob Bruun Larsen",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "25-037",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Jay Rodriguez",
+                "team": "Burnley",
+                "position": "FW",
+                "age": "34-089",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Nathan Redmond",
+                "team": "Burnley",
+                "position": "MF,FW",
+                "age": "29-234",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Anass Zaroury",
+                "team": "Burnley",
+                "position": "FW,MF",
+                "age": "22-353",
+                "nationality": "MAR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MAR.png"
+            },
+            {
+                "name": "Jack Cork",
+                "team": "Burnley",
+                "position": "MF",
+                "age": "34-123",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Hjalmar Ekdal",
+                "team": "Burnley",
+                "position": "DF",
+                "age": "25-005",
+                "nationality": "SWE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SWE.png"
+            },
+            {
+                "name": "Arijanet Muric",
+                "team": "Burnley",
+                "position": "GK",
+                "age": "24-353",
+                "nationality": "KVX",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/KVX.png"
+            }
+        ]
+    },
+    {
+        "name": "Chelsea",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/cff3d9bb.png",
+        "players": [
+            {
+                "name": "Robert Sánchez",
+                "team": "Chelsea",
+                "position": "GK",
+                "age": "25-342",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Thiago Silva",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "39-034",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Levi Colwill",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "20-242",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Enzo Fernández",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "22-282",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Conor Gallagher",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "23-262",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Axel Disasi",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "25-229",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Raheem Sterling",
+                "team": "Chelsea",
+                "position": "FW,MF",
+                "age": "28-322",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Nicolas Jackson",
+                "team": "Chelsea",
+                "position": "FW",
+                "age": "22-128",
+                "nationality": "SEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SEN.png"
+            },
+            {
+                "name": "Moisés Caicedo",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "21-358",
+                "nationality": "ECU",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ECU.png"
+            },
+            {
+                "name": "Malo Gusto",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "20-160",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Ben Chilwell",
+                "team": "Chelsea",
+                "position": "DF,MF",
+                "age": "26-309",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Mykhailo Mudryk",
+                "team": "Chelsea",
+                "position": "FW,DF",
+                "age": "22-294",
+                "nationality": "UKR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/UKR.png"
+            },
+            {
+                "name": "Cole Palmer",
+                "team": "Chelsea",
+                "position": "FW,MF",
+                "age": "21-173",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Marc Cucurella",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "25-096",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Carney Chukwuemeka",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "20-006",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Armando Broja",
+                "team": "Chelsea",
+                "position": "FW",
+                "age": "22-046",
+                "nationality": "ALB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ALB.png"
+            },
+            {
+                "name": "Lesley Ugochukwu",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "19-214",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Reece James",
+                "team": "Chelsea",
+                "position": "DF,FW",
+                "age": "23-322",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ian Maatsen",
+                "team": "Chelsea",
+                "position": "FW,MF",
+                "age": "21-230",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Noni Madueke",
+                "team": "Chelsea",
+                "position": "FW,MF",
+                "age": "21-230",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Mason Burstow",
+                "team": "Chelsea",
+                "position": "FW",
+                "age": "20-083",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Alex Matos",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "19-023",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Benoît Badiashile",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "22-214",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Eddie Beach",
+                "team": "Chelsea",
+                "position": "GK",
+                "age": "20-017",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Lucas Bergström",
+                "team": "Chelsea",
+                "position": "GK",
+                "age": "21-051",
+                "nationality": "FIN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FIN.png"
+            },
+            {
+                "name": "Joshua Brooking",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "21-055",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Alfie Gilchrist",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "19-332",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Bashir Humphreys",
+                "team": "Chelsea",
+                "position": "DF",
+                "age": "20-225",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Diego Moreira",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "19-081",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Đorđe Petrović",
+                "team": "Chelsea",
+                "position": "GK",
+                "age": "24-018",
+                "nationality": "SRB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SRB.png"
+            },
+            {
+                "name": "Andrey Santos",
+                "team": "Chelsea",
+                "position": "MF",
+                "age": "19-176",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Ronnie Stutter",
+                "team": "Chelsea",
+                "position": "FW",
+                "age": "18-293",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Deivid Washington",
+                "team": "Chelsea",
+                "position": "FW",
+                "age": "18-143",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            }
+        ]
+    },
+    {
+        "name": "Crystal Palace",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/47c64c55.png",
+        "players": [
+            {
+                "name": "Joachim Andersen",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "27-148",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Sam Johnstone",
+                "team": "Crystal Palace",
+                "position": "GK",
+                "age": "30-215",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Tyrick Mitchell",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "24-055",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jordan Ayew",
+                "team": "Crystal Palace",
+                "position": "FW,MF",
+                "age": "32-045",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "Cheick Doucouré",
+                "team": "Crystal Palace",
+                "position": "MF",
+                "age": "23-291",
+                "nationality": "MLI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MLI.png"
+            },
+            {
+                "name": "Marc Guéhi",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "23-105",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Joel Ward",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "33-362",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Odsonne Édouard",
+                "team": "Crystal Palace",
+                "position": "FW,MF",
+                "age": "25-283",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Jeffrey Schlupp",
+                "team": "Crystal Palace",
+                "position": "FW,MF",
+                "age": "30-307",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "Eberechi Eze",
+                "team": "Crystal Palace",
+                "position": "MF,FW",
+                "age": "25-119",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jefferson Lerma",
+                "team": "Crystal Palace",
+                "position": "MF",
+                "age": "29-001",
+                "nationality": "COL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COL.png"
+            },
+            {
+                "name": "Will Hughes",
+                "team": "Crystal Palace",
+                "position": "MF",
+                "age": "28-192",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jean-Philippe Mateta",
+                "team": "Crystal Palace",
+                "position": "FW",
+                "age": "26-120",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Chris Richards",
+                "team": "Crystal Palace",
+                "position": "DF,MF",
+                "age": "23-212",
+                "nationality": "USA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/USA.png"
+            },
+            {
+                "name": "Nathaniel Clyne",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "32-204",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jaïro Riedewald",
+                "team": "Crystal Palace",
+                "position": "MF,FW",
+                "age": "27-047",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Jesuran Rak Sakyi",
+                "team": "Crystal Palace",
+                "position": "MF,DF",
+                "age": "21-021",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Naouirou Ahamada",
+                "team": "Crystal Palace",
+                "position": "FW,MF",
+                "age": "21-211",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Matheus França",
+                "team": "Crystal Palace",
+                "position": "FW",
+                "age": "19-208",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "David Ozoh",
+                "team": "Crystal Palace",
+                "position": "MF",
+                "age": "18-148",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Tomkins",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "34-211",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Malcolm Ebiowei",
+                "team": "Crystal Palace",
+                "position": "MF",
+                "age": "20-052",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "John-Kymani Gordon",
+                "team": "Crystal Palace",
+                "position": "FW",
+                "age": "20-255",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Dean Henderson",
+                "team": "Crystal Palace",
+                "position": "GK",
+                "age": "26-228",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Rob Holding",
+                "team": "Crystal Palace",
+                "position": "DF",
+                "age": "28-036",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Remi Matthews",
+                "team": "Crystal Palace",
+                "position": "GK",
+                "age": "29-258",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ademola Ola-Adebomi",
+                "team": "Crystal Palace",
+                "position": "FW",
+                "age": "19-246",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jadan Raymond",
+                "team": "Crystal Palace",
+                "position": "MF",
+                "age": "20-011",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            }
+        ]
+    },
+    {
+        "name": "Everton",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/d3fd31cc.png",
+        "players": [
+            {
+                "name": "Jordan Pickford",
+                "team": "Everton",
+                "position": "GK",
+                "age": "29-233",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Tarkowski",
+                "team": "Everton",
+                "position": "DF",
+                "age": "30-341",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Amadou Onana",
+                "team": "Everton",
+                "position": "MF",
+                "age": "22-071",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Abdoulaye Doucouré",
+                "team": "Everton",
+                "position": "FW,MF",
+                "age": "30-298",
+                "nationality": "MLI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MLI.png"
+            },
+            {
+                "name": "Ashley Young",
+                "team": "Everton",
+                "position": "DF",
+                "age": "38-109",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Garner",
+                "team": "Everton",
+                "position": "MF",
+                "age": "22-227",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jarrad Branthwaite",
+                "team": "Everton",
+                "position": "DF",
+                "age": "21-121",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Idrissa Gana Gueye",
+                "team": "Everton",
+                "position": "MF",
+                "age": "34-030",
+                "nationality": "SEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SEN.png"
+            },
+            {
+                "name": "Vitaliy Mykolenko",
+                "team": "Everton",
+                "position": "DF",
+                "age": "24-150",
+                "nationality": "UKR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/UKR.png"
+            },
+            {
+                "name": "Dwight McNeil",
+                "team": "Everton",
+                "position": "MF,FW",
+                "age": "23-338",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Nathan Patterson",
+                "team": "Everton",
+                "position": "DF",
+                "age": "22-010",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Dominic Calvert-Lewin",
+                "team": "Everton",
+                "position": "FW",
+                "age": "26-224",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Arnaut Danjuma",
+                "team": "Everton",
+                "position": "FW,MF",
+                "age": "26-268",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Beto",
+                "team": "Everton",
+                "position": "FW",
+                "age": "25-268",
+                "nationality": "GNB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GNB.png"
+            },
+            {
+                "name": "Michael Keane",
+                "team": "Everton",
+                "position": "DF",
+                "age": "30-288",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jack Harrison",
+                "team": "Everton",
+                "position": "MF",
+                "age": "26-340",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Alex Iwobi",
+                "team": "Everton",
+                "position": "MF",
+                "age": "27-176",
+                "nationality": "NGA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NGA.png"
+            },
+            {
+                "name": "Lewis Dobbin",
+                "team": "Everton",
+                "position": "MF",
+                "age": "20-296",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Neal Maupay",
+                "team": "Everton",
+                "position": "FW",
+                "age": "27-073",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Youssef Chermiti",
+                "team": "Everton",
+                "position": "FW",
+                "age": "19-155",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Thomas Cannon",
+                "team": "Everton",
+                "position": "FW",
+                "age": "20-302",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Ben Godfrey",
+                "team": "Everton",
+                "position": "DF",
+                "age": "25-284",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Tyler Onyango",
+                "team": "Everton",
+                "position": "MF",
+                "age": "20-236",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "André Gomes",
+                "team": "Everton",
+                "position": "MF",
+                "age": "30-088",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Mackenzie Hunt",
+                "team": "Everton",
+                "position": "DF",
+                "age": "21-346",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Andy Lonergan",
+                "team": "Everton",
+                "position": "GK",
+                "age": "40-007",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "João Virgínia",
+                "team": "Everton",
+                "position": "GK",
+                "age": "24-016",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            }
+        ]
+    },
+    {
+        "name": "Fulham",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/fd962109.png",
+        "players": [
+            {
+                "name": "Bernd Leno",
+                "team": "Fulham",
+                "position": "GK",
+                "age": "31-236",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Antonee Robinson",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "26-079",
+                "nationality": "USA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/USA.png"
+            },
+            {
+                "name": "Issa Diop",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "26-290",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Tim Ream",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "36-021",
+                "nationality": "USA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/USA.png"
+            },
+            {
+                "name": "Andreas Pereira",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "27-298",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Raúl Jiménez",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "32-174",
+                "nationality": "MEX",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MEX.png"
+            },
+            {
+                "name": "João Palhinha",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "28-109",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Willian",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "35-078",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Harry Wilson",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "26-218",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Harrison Reed",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "28-272",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Bobby Reid",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "30-266",
+                "nationality": "JAM",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JAM.png"
+            },
+            {
+                "name": "Timothy Castagne",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "27-325",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Kenny Tete",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "28-017",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Saša Lukić",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "27-074",
+                "nationality": "SRB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SRB.png"
+            },
+            {
+                "name": "Calvin Bassey",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "23-299",
+                "nationality": "NGA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NGA.png"
+            },
+            {
+                "name": "Carlos Vinícius",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "28-215",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Tom Cairney",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "32-279",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Alex Iwobi",
+                "team": "Fulham",
+                "position": "MF,FW",
+                "age": "27-176",
+                "nationality": "NGA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NGA.png"
+            },
+            {
+                "name": "Luke Harris",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "18-206",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Adama Traoré",
+                "team": "Fulham",
+                "position": "FW,DF",
+                "age": "27-274",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Aleksandar Mitrović",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "29-040",
+                "nationality": "SRB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SRB.png"
+            },
+            {
+                "name": "Rodrigo Muniz",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "22-175",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Tosin Adarabioyo",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "26-032",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Marek Rodák",
+                "team": "Fulham",
+                "position": "GK",
+                "age": "26-317",
+                "nationality": "SVK",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SVK.png"
+            },
+            {
+                "name": "Fodé Ballo-Touré",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "26-296",
+                "nationality": "SEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SEN.png"
+            },
+            {
+                "name": "Luc De Fougerolles",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "18-014",
+                "nationality": "CAN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CAN.png"
+            },
+            {
+                "name": "Matt Dibley-Dias",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "19-259",
+                "nationality": "NZL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NZL.png"
+            },
+            {
+                "name": "Tyrese Francois",
+                "team": "Fulham",
+                "position": "MF",
+                "age": "23-102",
+                "nationality": "AUS",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/AUS.png"
+            },
+            {
+                "name": "Kevin Mbabu",
+                "team": "Fulham",
+                "position": "DF",
+                "age": "28-190",
+                "nationality": "SUI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SUI.png"
+            },
+            {
+                "name": "Jay Stansfield",
+                "team": "Fulham",
+                "position": "FW",
+                "age": "20-336",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            }
+        ]
+    },
+    {
+        "name": "Liverpool",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/822bd0ba.png",
+        "players": [
+            {
+                "name": "Alisson",
+                "team": "Liverpool",
+                "position": "GK",
+                "age": "31-024",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Dominik Szoboszlai",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "23-001",
+                "nationality": "HUN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/HUN.png"
+            },
+            {
+                "name": "Mohamed Salah",
+                "team": "Liverpool",
+                "position": "FW",
+                "age": "31-133",
+                "nationality": "EGY",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/EGY.png"
+            },
+            {
+                "name": "Alexis Mac Allister",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "24-306",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Andrew Robertson",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "29-229",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Luis Díaz",
+                "team": "Liverpool",
+                "position": "FW,MF",
+                "age": "26-286",
+                "nationality": "COL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COL.png"
+            },
+            {
+                "name": "Virgil van Dijk",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "32-110",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Joël Matip",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "32-079",
+                "nationality": "CMR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CMR.png"
+            },
+            {
+                "name": "Trent Alexander-Arnold",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "25-019",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Cody Gakpo",
+                "team": "Liverpool",
+                "position": "MF,FW",
+                "age": "24-172",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Joe Gomez",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "26-156",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Diogo Jota",
+                "team": "Liverpool",
+                "position": "FW,MF",
+                "age": "26-326",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Curtis Jones",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "22-269",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Darwin Núñez",
+                "team": "Liverpool",
+                "position": "FW",
+                "age": "24-124",
+                "nationality": "URU",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/URU.png"
+            },
+            {
+                "name": "Ibrahima Konaté",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "24-154",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Harvey Elliott",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "20-205",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ryan Gravenberch",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "21-163",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Jarrell Quansah",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "20-270",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Wataru Endo",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "30-259",
+                "nationality": "JPN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JPN.png"
+            },
+            {
+                "name": "Kostas Tsimikas",
+                "team": "Liverpool",
+                "position": "DF,MF",
+                "age": "27-167",
+                "nationality": "GRE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GRE.png"
+            },
+            {
+                "name": "Ben Doak",
+                "team": "Liverpool",
+                "position": "FW",
+                "age": "17-349",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Adrián",
+                "team": "Liverpool",
+                "position": "GK",
+                "age": "36-296",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Stefan Bajcetic",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "19-004",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Luke Chambers",
+                "team": "Liverpool",
+                "position": "DF",
+                "age": "19-124",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Caoimhín Kelleher",
+                "team": "Liverpool",
+                "position": "GK",
+                "age": "24-337",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "James McConnell",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "19-043",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Calum Scanlon",
+                "team": "Liverpool",
+                "position": "MF",
+                "age": "18-254",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            }
+        ]
+    },
+    {
+        "name": "Luton Town",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/e297cd13.png",
+        "players": [
+            {
+                "name": "Thomas Kaminski",
+                "team": "Luton Town",
+                "position": "GK",
+                "age": "31-003",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Marvelous Nakamba",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "29-280",
+                "nationality": "ZIM",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ZIM.png"
+            },
+            {
+                "name": "Carlton Morris",
+                "team": "Luton Town",
+                "position": "FW",
+                "age": "27-314",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Tom Lockyer",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "28-327",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Reece Burke",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "27-054",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Amari'i Bell",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "29-174",
+                "nationality": "JAM",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JAM.png"
+            },
+            {
+                "name": "Alfie Doughty",
+                "team": "Luton Town",
+                "position": "DF,MF",
+                "age": "23-309",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Issa Kaboré",
+                "team": "Luton Town",
+                "position": "DF,MF",
+                "age": "22-167",
+                "nationality": "BFA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BFA.png"
+            },
+            {
+                "name": "Jacob Brown",
+                "team": "Luton Town",
+                "position": "FW,MF",
+                "age": "25-199",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Chiedozie Ogbene",
+                "team": "Luton Town",
+                "position": "MF,FW",
+                "age": "26-178",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Pelly Ruddock Mpanzu",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "30-101",
+                "nationality": "COD",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COD.png"
+            },
+            {
+                "name": "Tahith Chong",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "23-326",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Mads Juel Andersen",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "25-303",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Elijah Adebayo",
+                "team": "Luton Town",
+                "position": "FW",
+                "age": "25-292",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ryan John Giles",
+                "team": "Luton Town",
+                "position": "DF,MF",
+                "age": "23-273",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Teden Mengi",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "21-179",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ross Barkley",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "29-325",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Albert Sambi Lokonga",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "24-004",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Cauley Woodrow",
+                "team": "Luton Town",
+                "position": "FW,MF",
+                "age": "28-328",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Luke Berry",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "31-106",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Andros Townsend",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "32-102",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Allan Campbell",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "25-114",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Aidan Francis",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "20-352",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Joseph Johnson",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "17-290",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Tim Krul",
+                "team": "Luton Town",
+                "position": "GK",
+                "age": "35-206",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Jayden Luker",
+                "team": "Luton Town",
+                "position": "MF",
+                "age": "18-179",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "John Mcatee",
+                "team": "Luton Town",
+                "position": "FW,MF",
+                "age": "24-095",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Gabriel Osho",
+                "team": "Luton Town",
+                "position": "DF",
+                "age": "25-073",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Shea",
+                "team": "Luton Town",
+                "position": "GK",
+                "age": "32-132",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            }
+        ]
+    },
+    {
+        "name": "Manchester City",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/b8fd03ef.png",
+        "players": [
+            {
+                "name": "Kyle Walker",
+                "team": "Manchester City",
+                "position": "DF",
+                "age": "33-151",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Erling Haaland",
+                "team": "Manchester City",
+                "position": "FW",
+                "age": "23-097",
+                "nationality": "NOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NOR.png"
+            },
+            {
+                "name": "Julián Álvarez",
+                "team": "Manchester City",
+                "position": "MF,FW",
+                "age": "23-268",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Ederson",
+                "team": "Manchester City",
+                "position": "GK",
+                "age": "30-070",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Phil Foden",
+                "team": "Manchester City",
+                "position": "FW,MF",
+                "age": "23-151",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Rúben Dias",
+                "team": "Manchester City",
+                "position": "DF",
+                "age": "26-165",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Manuel Akanji",
+                "team": "Manchester City",
+                "position": "DF",
+                "age": "28-099",
+                "nationality": "SUI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SUI.png"
+            },
+            {
+                "name": "Rodri",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "27-126",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Joško Gvardiol",
+                "team": "Manchester City",
+                "position": "DF",
+                "age": "21-276",
+                "nationality": "CRO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CRO.png"
+            },
+            {
+                "name": "Bernardo Silva",
+                "team": "Manchester City",
+                "position": "MF,FW",
+                "age": "29-077",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Nathan Aké",
+                "team": "Manchester City",
+                "position": "DF",
+                "age": "28-250",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Mateo Kovačić",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "29-173",
+                "nationality": "CRO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CRO.png"
+            },
+            {
+                "name": "Jeremy Doku",
+                "team": "Manchester City",
+                "position": "FW",
+                "age": "21-152",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Jack Grealish",
+                "team": "Manchester City",
+                "position": "FW",
+                "age": "28-046",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Matheus Nunes",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "25-060",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Rico Lewis",
+                "team": "Manchester City",
+                "position": "DF,MF",
+                "age": "18-339",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "John Stones",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "29-151",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Stefan Ortega",
+                "team": "Manchester City",
+                "position": "GK",
+                "age": "30-354",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Kevin De Bruyne",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "32-120",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Kalvin Phillips",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "27-328",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Oscar Bobb",
+                "team": "Manchester City",
+                "position": "MF,FW",
+                "age": "20-106",
+                "nationality": "NOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NOR.png"
+            },
+            {
+                "name": "Sergio Gómez",
+                "team": "Manchester City",
+                "position": "FW",
+                "age": "23-052",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Aymeric Laporte",
+                "team": "Manchester City",
+                "position": "DF",
+                "age": "29-152",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Cole Palmer",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "21-173",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Mcatee",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "21-008",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Scott Carson",
+                "team": "Manchester City",
+                "position": "GK",
+                "age": "38-053",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Máximo Perrone",
+                "team": "Manchester City",
+                "position": "MF",
+                "age": "20-292",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            }
+        ]
+    },
+    {
+        "name": "Manchester Utd",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/19538871.png",
+        "players": [
+            {
+                "name": "Bruno Fernandes",
+                "team": "Manchester Utd",
+                "position": "MF,FW",
+                "age": "29-048",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "André Onana",
+                "team": "Manchester Utd",
+                "position": "GK",
+                "age": "27-207",
+                "nationality": "CMR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CMR.png"
+            },
+            {
+                "name": "Marcus Rashford",
+                "team": "Manchester Utd",
+                "position": "FW",
+                "age": "25-360",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Casemiro",
+                "team": "Manchester Utd",
+                "position": "MF",
+                "age": "31-245",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Diogo Dalot",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "24-222",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Victor Lindelöf",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "29-101",
+                "nationality": "SWE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SWE.png"
+            },
+            {
+                "name": "Rasmus Højlund",
+                "team": "Manchester Utd",
+                "position": "FW",
+                "age": "20-264",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Antony",
+                "team": "Manchester Utd",
+                "position": "FW,MF",
+                "age": "23-244",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Lisandro Martínez",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "25-281",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Aaron Wan-Bissaka",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "25-334",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Raphaël Varane",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "30-184",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Mason Mount",
+                "team": "Manchester Utd",
+                "position": "MF",
+                "age": "24-289",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Christian Eriksen",
+                "team": "Manchester Utd",
+                "position": "MF",
+                "age": "31-254",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Sofyan Amrabat",
+                "team": "Manchester Utd",
+                "position": "MF,DF",
+                "age": "27-066",
+                "nationality": "MAR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MAR.png"
+            },
+            {
+                "name": "Jonny Evans",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "35-296",
+                "nationality": "NIR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NIR.png"
+            },
+            {
+                "name": "Scott McTominay",
+                "team": "Manchester Utd",
+                "position": "MF",
+                "age": "26-322",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Alejandro Garnacho",
+                "team": "Manchester Utd",
+                "position": "FW,MF",
+                "age": "19-117",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Anthony Martial",
+                "team": "Manchester Utd",
+                "position": "FW,MF",
+                "age": "27-325",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Harry Maguire",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "30-235",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Luke Shaw",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "28-106",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Sergio Reguilón",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "26-314",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Hannibal Mejbri",
+                "team": "Manchester Utd",
+                "position": "MF",
+                "age": "20-278",
+                "nationality": "TUN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/TUN.png"
+            },
+            {
+                "name": "Facundo Pellistri",
+                "team": "Manchester Utd",
+                "position": "FW,MF",
+                "age": "21-310",
+                "nationality": "URU",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/URU.png"
+            },
+            {
+                "name": "Jadon Sancho",
+                "team": "Manchester Utd",
+                "position": "FW,MF",
+                "age": "23-215",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Donny van de Beek",
+                "team": "Manchester Utd",
+                "position": "DF",
+                "age": "26-191",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Altay Bayındır",
+                "team": "Manchester Utd",
+                "position": "GK",
+                "age": "25-195",
+                "nationality": "TUR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/TUR.png"
+            },
+            {
+                "name": "Álvaro Fernández",
+                "team": "Manchester Utd",
+                "position": "DF,MF",
+                "age": "20-217",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Daniel Gore",
+                "team": "Manchester Utd",
+                "position": "MF",
+                "age": "19-030",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Dean Henderson",
+                "team": "Manchester Utd",
+                "position": "GK",
+                "age": "26-228",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Radek Vítek",
+                "team": "Manchester Utd",
+                "position": "GK",
+                "age": "20-002",
+                "nationality": "null",
+                "nationURL": "null"
+            }
+        ]
+    },
+    {
+        "name": "Newcastle Utd",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/b2b47a98.png",
+        "players": [
+            {
+                "name": "Dan Burn",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "31-170",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Nick Pope",
+                "team": "Newcastle Utd",
+                "position": "GK",
+                "age": "31-190",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Fabian Schär",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "31-310",
+                "nationality": "SUI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SUI.png"
+            },
+            {
+                "name": "Bruno Guimarães",
+                "team": "Newcastle Utd",
+                "position": "MF",
+                "age": "25-344",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Kieran Trippier",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "33-037",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Anthony Gordon",
+                "team": "Newcastle Utd",
+                "position": "FW",
+                "age": "22-244",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Miguel Almirón",
+                "team": "Newcastle Utd",
+                "position": "FW",
+                "age": "29-258",
+                "nationality": "PAR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/PAR.png"
+            },
+            {
+                "name": "Alexander Isak",
+                "team": "Newcastle Utd",
+                "position": "FW",
+                "age": "24-035",
+                "nationality": "SWE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SWE.png"
+            },
+            {
+                "name": "Sean Longstaff",
+                "team": "Newcastle Utd",
+                "position": "MF",
+                "age": "25-361",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Sven Botman",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "23-287",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Sandro Tonali",
+                "team": "Newcastle Utd",
+                "position": "MF",
+                "age": "23-171",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Joelinton",
+                "team": "Newcastle Utd",
+                "position": "MF",
+                "age": "27-073",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Elliot Anderson",
+                "team": "Newcastle Utd",
+                "position": "MF,FW",
+                "age": "20-354",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Callum Wilson",
+                "team": "Newcastle Utd",
+                "position": "FW",
+                "age": "31-241",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jamaal Lascelles",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "29-349",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Harvey Barnes",
+                "team": "Newcastle Utd",
+                "position": "FW",
+                "age": "25-321",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jacob Murphy",
+                "team": "Newcastle Utd",
+                "position": "FW",
+                "age": "28-244",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Matt Targett",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "28-038",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Valentino Livramento",
+                "team": "Newcastle Utd",
+                "position": "DF,FW",
+                "age": "20-348",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Lewis Hall",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "19-048",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Martin Dúbravka",
+                "team": "Newcastle Utd",
+                "position": "GK",
+                "age": "34-284",
+                "nationality": "SVK",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SVK.png"
+            },
+            {
+                "name": "Paul Dummett",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "32-030",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Javier Manquillo",
+                "team": "Newcastle Utd",
+                "position": "DF",
+                "age": "29-174",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Matt Ritchie",
+                "team": "Newcastle Utd",
+                "position": "DF,MF",
+                "age": "34-046",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            }
+        ]
+    },
+    {
+        "name": "Nott'ham Forest",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/e4a775cb.png",
+        "players": [
+            {
+                "name": "Matt Turner",
+                "team": "Nott'ham Forest",
+                "position": "GK",
+                "age": "29-124",
+                "nationality": "USA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/USA.png"
+            },
+            {
+                "name": "Morgan Gibbs-White",
+                "team": "Nott'ham Forest",
+                "position": "MF,FW",
+                "age": "23-272",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Willy Boly",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "32-265",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Orel Mangala",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "25-222",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Serge Aurier",
+                "team": "Nott'ham Forest",
+                "position": "DF,MF",
+                "age": "30-306",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Taiwo Awoniyi",
+                "team": "Nott'ham Forest",
+                "position": "FW",
+                "age": "26-075",
+                "nationality": "NGA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NGA.png"
+            },
+            {
+                "name": "Joe Worrall",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "26-289",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Scott McKenna",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "26-348",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Ola Aina",
+                "team": "Nott'ham Forest",
+                "position": "DF,MF",
+                "age": "27-018",
+                "nationality": "NGA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NGA.png"
+            },
+            {
+                "name": "Ibrahim Sangaré",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "25-328",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Nicolás Domínguez",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "25-120",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Danilo",
+                "team": "Nott'ham Forest",
+                "position": "MF,FW",
+                "age": "22-180",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Anthony Elanga",
+                "team": "Nott'ham Forest",
+                "position": "FW,MF",
+                "age": "21-182",
+                "nationality": "SWE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SWE.png"
+            },
+            {
+                "name": "Ryan Yates",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "25-339",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Murillo",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "21-114",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Brennan Johnson",
+                "team": "Nott'ham Forest",
+                "position": "FW,MF",
+                "age": "22-156",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Callum Hudson-Odoi",
+                "team": "Nott'ham Forest",
+                "position": "FW",
+                "age": "22-353",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Chris Wood",
+                "team": "Nott'ham Forest",
+                "position": "FW",
+                "age": "31-323",
+                "nationality": "NZL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NZL.png"
+            },
+            {
+                "name": "Harry Toffolo",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "28-068",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Moussa Niakhate",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "27-232",
+                "nationality": "SEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SEN.png"
+            },
+            {
+                "name": "Gonzalo Montiel",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "26-298",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Neco Williams",
+                "team": "Nott'ham Forest",
+                "position": "MF,DF",
+                "age": "22-196",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Nuno Tavares",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "23-273",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Cheikhou Kouyaté",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "33-309",
+                "nationality": "SEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SEN.png"
+            },
+            {
+                "name": "Divock Origi",
+                "team": "Nott'ham Forest",
+                "position": "FW,MF",
+                "age": "28-191",
+                "nationality": "BEL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BEL.png"
+            },
+            {
+                "name": "Brandon Aguilera",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "20-120",
+                "nationality": "CRC",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CRC.png"
+            },
+            {
+                "name": "Felipe",
+                "team": "Nott'ham Forest",
+                "position": "DF",
+                "age": "34-163",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Remo Freuler",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "31-194",
+                "nationality": "SUI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SUI.png"
+            },
+            {
+                "name": "Ethan Horvath",
+                "team": "Nott'ham Forest",
+                "position": "GK",
+                "age": "28-139",
+                "nationality": "USA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/USA.png"
+            },
+            {
+                "name": "Lewis O'Brien",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "25-012",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Andrey Santos",
+                "team": "Nott'ham Forest",
+                "position": "MF",
+                "age": "19-176",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Hwang Ui-jo",
+                "team": "Nott'ham Forest",
+                "position": "FW,MF",
+                "age": "31-059",
+                "nationality": "KOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/KOR.png"
+            },
+            {
+                "name": "Odisseas Vlachodimos",
+                "team": "Nott'ham Forest",
+                "position": "GK",
+                "age": "29-183",
+                "nationality": "GRE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GRE.png"
+            }
+        ]
+    },
+    {
+        "name": "Sheffield Utd",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/1df6b87e.png",
+        "players": [
+            {
+                "name": "Wes Foderingham",
+                "team": "Sheffield Utd",
+                "position": "GK",
+                "age": "32-285",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jack Robinson",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "30-055",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Anel Ahmedhodžić",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "24-214",
+                "nationality": "BIH",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BIH.png"
+            },
+            {
+                "name": "Vinicius Souza",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "24-131",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Gustavo Hamer",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "26-124",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Oliver Norwood",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "32-197",
+                "nationality": "NIR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NIR.png"
+            },
+            {
+                "name": "Cameron Archer",
+                "team": "Sheffield Utd",
+                "position": "FW",
+                "age": "22-097",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "John Egan",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "31-006",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Luke Thomas",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "22-138",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Oliver McBurnie",
+                "team": "Sheffield Utd",
+                "position": "FW",
+                "age": "27-144",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Jayden Bogle",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "23-091",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "James Mcatee",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "21-008",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Bénie Adama Traore",
+                "team": "Sheffield Utd",
+                "position": "FW,MF",
+                "age": "20-330",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Chris Basham",
+                "team": "Sheffield Utd",
+                "position": "DF,MF",
+                "age": "35-098",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "George Baldock",
+                "team": "Sheffield Utd",
+                "position": "DF,MF",
+                "age": "30-231",
+                "nationality": "GRE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GRE.png"
+            },
+            {
+                "name": "William Osula",
+                "team": "Sheffield Utd",
+                "position": "FW",
+                "age": "20-083",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Ben Osborn",
+                "team": "Sheffield Utd",
+                "position": "DF,FW",
+                "age": "29-082",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Auston Trusty",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "25-075",
+                "nationality": "USA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/USA.png"
+            },
+            {
+                "name": "Max Lowe",
+                "team": "Sheffield Utd",
+                "position": "MF,DF",
+                "age": "26-168",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Yasser Larouci",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "22-298",
+                "nationality": "ALG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ALG.png"
+            },
+            {
+                "name": "Rhian Brewster",
+                "team": "Sheffield Utd",
+                "position": "FW",
+                "age": "23-208",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Tom Davies",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "25-118",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Anis Ben Slimane",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "22-224",
+                "nationality": "TUN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/TUN.png"
+            },
+            {
+                "name": "Andre Brooks",
+                "team": "Sheffield Utd",
+                "position": "MF,FW",
+                "age": "20-067",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Antwoine Hackford",
+                "team": "Sheffield Utd",
+                "position": "FW",
+                "age": "19-220",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jordan Amissah",
+                "team": "Sheffield Utd",
+                "position": "GK",
+                "age": "22-085",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "Jili Buyabu",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "22-078",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ismaila Cheick Coulibaly",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "22-305",
+                "nationality": "MLI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MLI.png"
+            },
+            {
+                "name": "Adam Davies",
+                "team": "Sheffield Utd",
+                "position": "GK",
+                "age": "31-101",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "John Fleck",
+                "team": "Sheffield Utd",
+                "position": "FW,MF",
+                "age": "32-063",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Louie Marsh",
+                "team": "Sheffield Utd",
+                "position": "FW",
+                "age": "20-010",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Ryan One",
+                "team": "Sheffield Utd",
+                "position": "MF",
+                "age": "17-122",
+                "nationality": "SCO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SCO.png"
+            },
+            {
+                "name": "Femi Seriki",
+                "team": "Sheffield Utd",
+                "position": "DF",
+                "age": "21-181",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            }
+        ]
+    },
+    {
+        "name": "Tottenham",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/361ca564.png",
+        "players": [
+            {
+                "name": "Guglielmo Vicario",
+                "team": "Tottenham",
+                "position": "GK",
+                "age": "27-019",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Micky van de Ven",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "22-190",
+                "nationality": "NED",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/NED.png"
+            },
+            {
+                "name": "Dejan Kulusevski",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "23-184",
+                "nationality": "SWE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SWE.png"
+            },
+            {
+                "name": "James Maddison",
+                "team": "Tottenham",
+                "position": "MF",
+                "age": "26-337",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Cristian Romero",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "25-182",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Destiny Udogie",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "20-332",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Son Heung-min",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "31-110",
+                "nationality": "KOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/KOR.png"
+            },
+            {
+                "name": "Pedro Porro",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "24-043",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Yves Bissouma",
+                "team": "Tottenham",
+                "position": "MF",
+                "age": "27-057",
+                "nationality": "MLI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MLI.png"
+            },
+            {
+                "name": "Pape Matar Sarr",
+                "team": "Tottenham",
+                "position": "MF",
+                "age": "21-042",
+                "nationality": "SEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/SEN.png"
+            },
+            {
+                "name": "Richarlison",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "26-169",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Manor Solomon",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "24-094",
+                "nationality": "ISR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ISR.png"
+            },
+            {
+                "name": "Pierre Højbjerg",
+                "team": "Tottenham",
+                "position": "MF",
+                "age": "28-082",
+                "nationality": "DEN",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/DEN.png"
+            },
+            {
+                "name": "Emerson",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "24-285",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Oliver Skipp",
+                "team": "Tottenham",
+                "position": "MF",
+                "age": "23-040",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Brennan Johnson",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "22-156",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Ivan Perišić",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "34-266",
+                "nationality": "CRO",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CRO.png"
+            },
+            {
+                "name": "Davinson Sánchez",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "27-136",
+                "nationality": "COL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/COL.png"
+            },
+            {
+                "name": "Ben Davies",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "30-185",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            },
+            {
+                "name": "Giovani Lo Celso",
+                "team": "Tottenham",
+                "position": "MF",
+                "age": "27-200",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Alejo Véliz",
+                "team": "Tottenham",
+                "position": "FW,MF",
+                "age": "20-037",
+                "nationality": "ARG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ARG.png"
+            },
+            {
+                "name": "Brandon Austin",
+                "team": "Tottenham",
+                "position": "GK",
+                "age": "24-291",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Eric Dier",
+                "team": "Tottenham",
+                "position": "DF,MF",
+                "age": "29-284",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Jamie Donley",
+                "team": "Tottenham",
+                "position": "FW",
+                "age": "18-296",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Fraser Forster",
+                "team": "Tottenham",
+                "position": "GK",
+                "age": "35-223",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Bryan Gil",
+                "team": "Tottenham",
+                "position": "FW,MF",
+                "age": "22-257",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Ashley Phillips",
+                "team": "Tottenham",
+                "position": "DF",
+                "age": "18-092",
+                "nationality": "WAL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/WAL.png"
+            }
+        ]
+    },
+    {
+        "name": "West Ham",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/7c21e445.png",
+        "players": [
+            {
+                "name": "Alphonse Areola",
+                "team": "West Ham",
+                "position": "GK",
+                "age": "30-241",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Emerson Palmieri",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "29-084",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Kurt Zouma",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "28-364",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Jarrod Bowen",
+                "team": "West Ham",
+                "position": "FW,MF",
+                "age": "26-310",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Vladimír Coufal",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "31-065",
+                "nationality": "CZE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CZE.png"
+            },
+            {
+                "name": "Lucas Paquetá",
+                "team": "West Ham",
+                "position": "FW,MF",
+                "age": "26-060",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Michail Antonio",
+                "team": "West Ham",
+                "position": "FW",
+                "age": "33-212",
+                "nationality": "JAM",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/JAM.png"
+            },
+            {
+                "name": "James Ward-Prowse",
+                "team": "West Ham",
+                "position": "MF",
+                "age": "28-359",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Nayef Aguerd",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "27-210",
+                "nationality": "MAR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MAR.png"
+            },
+            {
+                "name": "Tomáš Souček",
+                "team": "West Ham",
+                "position": "MF",
+                "age": "28-241",
+                "nationality": "CZE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CZE.png"
+            },
+            {
+                "name": "Edson Álvarez",
+                "team": "West Ham",
+                "position": "MF",
+                "age": "26-002",
+                "nationality": "MEX",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MEX.png"
+            },
+            {
+                "name": "Saïd Benrahma",
+                "team": "West Ham",
+                "position": "FW,MF",
+                "age": "28-077",
+                "nationality": "ALG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ALG.png"
+            },
+            {
+                "name": "Pablo Fornals",
+                "team": "West Ham",
+                "position": "MF,FW",
+                "age": "27-246",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Angelo Ogbonna",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "35-156",
+                "nationality": "ITA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ITA.png"
+            },
+            {
+                "name": "Kudus Mohammed",
+                "team": "West Ham",
+                "position": "MF,FW",
+                "age": "23-085",
+                "nationality": "GHA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GHA.png"
+            },
+            {
+                "name": "Danny Ings",
+                "team": "West Ham",
+                "position": "FW,MF",
+                "age": "31-095",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Thilo Kehrer",
+                "team": "West Ham",
+                "position": "DF,MF",
+                "age": "27-035",
+                "nationality": "GER",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GER.png"
+            },
+            {
+                "name": "Maxwel Cornet",
+                "team": "West Ham",
+                "position": "MF",
+                "age": "27-029",
+                "nationality": "CIV",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/CIV.png"
+            },
+            {
+                "name": "Konstantinos Mavropanos",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "25-319",
+                "nationality": "GRE",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GRE.png"
+            },
+            {
+                "name": "Joseph Anang",
+                "team": "West Ham",
+                "position": "GK",
+                "age": "23-140",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Conor Coventry",
+                "team": "West Ham",
+                "position": "MF",
+                "age": "23-215",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Aaron Cresswell",
+                "team": "West Ham",
+                "position": "DF,MF",
+                "age": "33-315",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Łukasz Fabiański",
+                "team": "West Ham",
+                "position": "GK",
+                "age": "38-191",
+                "nationality": "POL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POL.png"
+            },
+            {
+                "name": "Ben Johnson",
+                "team": "West Ham",
+                "position": "DF",
+                "age": "23-275",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Divin Mubama",
+                "team": "West Ham",
+                "position": "FW",
+                "age": "19-001",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            }
+        ]
+    },
+    {
+        "name": "Wolves",
+        "clubLogo": "https://cdn.ssref.net/req/202310031/tlogo/fb/8cec06e1.png",
+        "players": [
+            {
+                "name": "Max Kilman",
+                "team": "Wolves",
+                "position": "DF",
+                "age": "26-156",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Pedro Neto",
+                "team": "Wolves",
+                "position": "FW,MF",
+                "age": "23-231",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "José Sá",
+                "team": "Wolves",
+                "position": "GK",
+                "age": "30-282",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Craig Dawson",
+                "team": "Wolves",
+                "position": "DF",
+                "age": "33-173",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Matheus Cunha",
+                "team": "Wolves",
+                "position": "FW",
+                "age": "24-152",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "João Gomes",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "22-256",
+                "nationality": "BRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/BRA.png"
+            },
+            {
+                "name": "Nélson Semedo",
+                "team": "Wolves",
+                "position": "DF,MF",
+                "age": "29-344",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Mario Lemina",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "30-055",
+                "nationality": "GAB",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/GAB.png"
+            },
+            {
+                "name": "Rayan Aït Nouri",
+                "team": "Wolves",
+                "position": "DF,MF",
+                "age": "22-142",
+                "nationality": "ALG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ALG.png"
+            },
+            {
+                "name": "Hwang Hee-chan",
+                "team": "Wolves",
+                "position": "FW,MF",
+                "age": "27-273",
+                "nationality": "KOR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/KOR.png"
+            },
+            {
+                "name": "Toti Gomes",
+                "team": "Wolves",
+                "position": "DF",
+                "age": "24-283",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Fábio Silva",
+                "team": "Wolves",
+                "position": "FW",
+                "age": "21-099",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Pablo Sarabia",
+                "team": "Wolves",
+                "position": "FW,MF",
+                "age": "31-168",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Matheus Nunes",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "25-060",
+                "nationality": "POR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/POR.png"
+            },
+            {
+                "name": "Jean-Ricner Bellegarde",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "25-121",
+                "nationality": "FRA",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/FRA.png"
+            },
+            {
+                "name": "Matt Doherty",
+                "team": "Wolves",
+                "position": "MF,FW",
+                "age": "31-283",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Boubacar Traoré",
+                "team": "Wolves",
+                "position": "MF,FW",
+                "age": "22-067",
+                "nationality": "MLI",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/MLI.png"
+            },
+            {
+                "name": "Hugo Bueno",
+                "team": "Wolves",
+                "position": "DF",
+                "age": "21-038",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Tommy Doyle",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "22-009",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Sasa Kalajdzic",
+                "team": "Wolves",
+                "position": "FW",
+                "age": "26-111",
+                "nationality": "AUT",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/AUT.png"
+            },
+            {
+                "name": "Jonny Castro",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "29-237",
+                "nationality": "ESP",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ESP.png"
+            },
+            {
+                "name": "Daniel Bentley",
+                "team": "Wolves",
+                "position": "GK",
+                "age": "30-105",
+                "nationality": "ENG",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/ENG.png"
+            },
+            {
+                "name": "Santiago Bueno",
+                "team": "Wolves",
+                "position": "DF",
+                "age": "24-351",
+                "nationality": "URU",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/URU.png"
+            },
+            {
+                "name": "Nathan Fraser",
+                "team": "Wolves",
+                "position": "FW",
+                "age": "18-246",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            },
+            {
+                "name": "Enso Gonzalez",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "18-279",
+                "nationality": "PAR",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/PAR.png"
+            },
+            {
+                "name": "Joseph Hodge",
+                "team": "Wolves",
+                "position": "MF",
+                "age": "21-042",
+                "nationality": "IRL",
+                "nationURL": "https://cdn.ssref.net/req/202309261/tlogo/fb/IRL.png"
+            }
+        ]
+    }
+]

@@ -1,0 +1,91 @@
+@model SoccerFantasy.Models.PlayersViewModel
+@{
+    var playersViewModel = (PlayersViewModel)Context.Items["PlayersViewModel"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - SoccerFantasy</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/SoccerFantasy.styles.css" asp-append-version="true" />
+    <style>
+        .purple_background { background-color : #37003b; }
+        .custom-white-button {
+            background-color: white; /* Set the background color to white */
+            color: white
+        }
+    </style>
+</head>
+<body>
+    <header class="d-none d-sm-block">
+        <div class="container-fluid">
+            <h4>Club Sites</h4>
+            <ul class="row list-unstyled">
+                @foreach (string clubLogo in playersViewModel.clubsLogos)
+                {
+                    <li class="col">
+                        <a>
+                            <div class="">
+                                <img src="@clubLogo" width="40" height="40" />
+                            </div>
+                        </a>
+                    </li>
+                }
+                
+            </ul>
+        </div>
+    </header>
+    <header>
+        <nav class=" navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="purple_background container-fluid">
+                <div class="col">
+                    <img src="https://www.premierleague.com/resources/rebrand/v7.131.3/i/elements/pl-main-logo.png" height="112" width="112" />
+                </div>
+                <button class="navbar-toggler custom-white-button" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Fixtures</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Table</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Fantasy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Stats</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Clubs</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Players">Players</a>
+                        </li>
+                        <!-- Add your other menu items here -->
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="container">
+        <main role="main" class="pb-3">
+            @RenderBody()
+        </main>
+    </div>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>
+

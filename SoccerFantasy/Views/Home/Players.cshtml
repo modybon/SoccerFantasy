@@ -1,0 +1,72 @@
+﻿@model SoccerFantasy.Models.PlayersViewModel
+@{
+    var playersViewModel = (PlayersViewModel)Context.Items["PlayersViewModel"];
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="~/lib/flag-icons-main/css/flag-icons.min.css" />
+
+    <style>
+        .blue-background {
+            background: linear-gradient(to bottom, #40aeff,#7b5fff)
+        }
+
+        .white-color {
+            color: white; /* Set the background color to white */
+        }
+        .table-container{
+            width : 100%;
+            overflow-x: auto;
+        }
+        .flag-uk {
+            background: #fff;
+            background: linear-gradient(45deg, #fff 50%, #0074bf 50%);
+            background-size: 6px 6px;
+        }
+    </style>
+</head>
+<body>
+    <header class="row blue-background">
+        <h1 class="col white-color">
+            Players
+        </h1>
+        <form class="col">
+            <input type="text" name="q" placeholder="Search for a Player" />
+            <input type="submit" value="Search" />
+        </form>
+    </header>
+    <div >
+        <table class="table-container">
+            <thead style="background-color: gray">
+                <tr>
+                    <th style="text-align:left">Name</th>
+                    <th style="text-align:center">Position</th>
+                    <th style="text-align: center">Nationality</th>
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var player in playersViewModel.players)
+                {
+                    <tr>
+                        <td style="text-align:left">@player.name</td>
+                        <td style="text-align:center">@player.position</td>
+                        <td class="row" style="text-align:center">
+                            @*<img class="col" src="@player.nationURL" height="118" width="118"/>*@
+                            <span class="@player.nationCSS"></span>
+                            <p class="col">@player.nationality</p>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+
+        </table>
+    </div>
+   
+
+</body>
+
+</html>

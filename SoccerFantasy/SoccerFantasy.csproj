@@ -1,0 +1,38 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'https' " />
+  <PropertyGroup Condition=" '$(RunConfiguration)' == 'http' " />
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Design" Version="7.0.13">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="7.0.13" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.13" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Controllers\API Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Controllers\API Controllers\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Models\ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Models\ViewModels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="wwwroot\lib\flag-icons-main\.github\dependabot.yml" />
+    <None Include="wwwroot\lib\flag-icons-main\.github\workflows\flags.yml" />
+    <None Include="wwwroot\lib\flag-icons-main\.github\workflows\npm-publish.yml" />
+    <None Include="wwwroot\lib\flag-icons-main\.github\workflows\format.yml" />
+  </ItemGroup>
+</Project>

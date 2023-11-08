@@ -1,0 +1,93 @@
+# Visual Studio files
+.vscode/
+*.suo
+*.user
+*.sln.docstates
+*_i.c
+*_p.c
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.publishsettings
+node_modules/
+
+# Visual Studio Code directories
+.vscode/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Compiled files
+bin/
+obj/
+Debug/
+Release/
+
+# NuGet packages
+packages/
+
+# ASP.NET Scaffolding
+ScaffoldingReadMe.txt
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Project-specific files
+.DS_Store
+Thumbs.db
+
+# Visual Studio temporary files
+[Vv][Ss][Cc]ache/
+[Tt]emp/
+[Ii]ISExpress/
+obj/
+
+# Logs
+*.log
+*.log.*
+log.txt
+
+# Resharper
+_ReSharper*/
+
+# Rider
+.idea/
+
+# User-specific files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Mono Auto Generated Files
+mono_crash.*
+
+# Windows image file caches
+Thumbs.db
+ehthumbs.db
+
+# Folder config file
+Desktop.ini
+
+# Recycle Bin used on file shares
+$RECYCLE.BIN/
+
+# VS Code directories
+.vscode/
+
+# Windows Installer files
+*.cab
+*.msi
+*.msm
+*.msp
+
+# Windows shortcuts
+*.lnk
+
