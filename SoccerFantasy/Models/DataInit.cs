@@ -7,6 +7,9 @@
 
     namespace SoccerFantasy.Models
     {
+    /// <summary>
+    /// Initilization of teams an players DB
+    /// </summary>
 	    public class DataInit
 	    {
 		    ICollection<Player> players = new List<Player>();
