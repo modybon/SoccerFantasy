@@ -1,4 +1,6 @@
 ﻿using System;
+using SoccerFantasy.Models.ViewModels;
+
 namespace SoccerFantasy.Models
 {
 	public class CustomMiddleware
@@ -12,12 +14,12 @@ namespace SoccerFantasy.Models
 
 		public async Task Invoke(HttpContext context, DataContext dataContext)
 		{
-			var clubLogos = dataContext.teams.Select(team => team.clubLogo).ToList();
-			var players = dataContext.players.ToList();
+			var teams = dataContext.teams.Select(team => new {name = team.name, clubLogo = team.clubLogo}).ToList();
+		
+			var viewModel = new SharedLayoutViewModel() { teamsNames = teams.Select(team=> team.name).ToList(),
+				teamsLogos = teams.Select(team=> team.clubLogo).ToList()};
 
-			var viewModel = new PlayersViewModel() { clubsLogos = clubLogos, players = players };
-
-			context.Items["PlayersViewModel"] = viewModel;
+            context.Items["SharedViewModel"] = viewModel;
 			await _next(context);
 		}
 

@@ -1,30 +1,37 @@
 ﻿<Properties StartupConfiguration="{C7486853-17C2-45CC-BAB4-86C4C1B6C0A1}|https">
-  <MonoDevelop.Ide.ItemProperties.SoccerFantasy PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerFantasy/Models/DataInit.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="SoccerFantasy/Views/Home/Players.cshtml">
     <Files>
-      <File FileName="SoccerFantasy/Models/Player.cs" Line="1" Column="1" />
-      <File FileName="SoccerFantasy/Models/FantasyTeam.cs" />
-      <File FileName="SoccerFantasy/Models/User.cs" />
-      <File FileName="SoccerFantasy/Views/Home/LoginForm.cshtml" />
-      <File FileName="SoccerFantasy/Views/Home/RegisterForm.cshtml" />
-      <File FileName="SoccerFantasy/Models/DataInit.cs" Line="1" Column="1" />
+      <File FileName="SoccerFantasy/Models/ViewModels/PlayersViewModel.cs" Line="8" Column="23" />
+      <File FileName="SoccerFantasy/Models/ViewModels/SharedLayoutViewModel.cs" Line="6" Column="34" />
+      <File FileName="SoccerFantasy/Controllers/HomeController.cs" Line="32" Column="30" />
+      <File FileName="SoccerFantasy/Views/Home/Players.cshtml" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="SoccerFantasy" expanded="True">
-            <Node name="SoccerFantasy" expanded="True">
-              <Node name="Models" expanded="True" />
+            <Node name="SoccerFantasy">
+              <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True">
+                <Node name="ViewModels" expanded="True" />
+              </Node>
+              <Node name="Views" expanded="True">
+                <Node name="Home" expanded="True">
+                  <Node name="Players.cshtml" selected="True" />
+                </Node>
+                <Node name="Shared" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.SoccerFantasy PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

@@ -36,7 +36,8 @@
                 { "NIR", "fi-gb-nir" },
                 { "PAR", "fi-py" },
                 { "POL", "fi-pl" },
-                { "UKR", "fi-ua" }
+                { "UKR", "fi-ua" },
+                { "GER", "fi-de" }
             };
 
             public DataInit(DataContext context)

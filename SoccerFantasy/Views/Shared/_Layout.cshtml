@@ -1,6 +1,5 @@
-@model SoccerFantasy.Models.PlayersViewModel
 @{
-    var playersViewModel = (PlayersViewModel)Context.Items["PlayersViewModel"];
+    var sharedViewModel = (SoccerFantasy.Models.ViewModels.SharedLayoutViewModel)Context.Items["SharedViewModel"];
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -24,7 +23,7 @@
         <div class="container-fluid">
             <h4>Club Sites</h4>
             <ul class="row list-unstyled">
-                @foreach (string clubLogo in playersViewModel.clubsLogos)
+                @foreach (string clubLogo in sharedViewModel.teamsLogos)
                 {
                     <li class="col">
                         <a>

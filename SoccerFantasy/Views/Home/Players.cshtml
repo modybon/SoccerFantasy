@@ -1,6 +1,7 @@
 ﻿@model SoccerFantasy.Models.PlayersViewModel
+
 @{
-    var playersViewModel = (PlayersViewModel)Context.Items["PlayersViewModel"];
+    var sharedViewModel = (SoccerFantasy.Models.ViewModels.SharedLayoutViewModel)Context.Items["SharedViewModel"];
 }
 <!DOCTYPE html>
 <html lang="en">
@@ -29,15 +30,30 @@
         }
     </style>
 </head>
-<body>
-    <header class="row blue-background">
+<body class="">
+    <header class="row blue-background mb-3 container-fluid">
         <h1 class="col white-color">
             Players
         </h1>
-        <form class="col">
-            <input type="text" name="q" placeholder="Search for a Player" />
-            <input type="submit" value="Search" />
+        <form asp-action="Players" method="post" class="form-inline">
+            <div class="form-group mr-2">
+                <label for="teamName" class="mr-2 white-color">Filter by club:</label>
+                <select id="teamName" name="teamName" asp-for="teamName" class="form-control">
+                    <option value="All Clubs">All Clubs</option>
+                    @foreach (var team in sharedViewModel.teamsNames)
+                    {
+                        <option value="@team">@team</option>
+                    }
+                </select>
+            </div>
+
+            <div class="form-group">
+                <input type="text" id="playerName" name="playerName" asp-for="playerName" placeholder="Search for a Player" class="form-control">
+            </div>
+            
+            <button type="submit" class="btn btn-primary">Search</button>
         </form>
+
     </header>
     <div >
         <table class="table-container">
@@ -49,18 +65,32 @@
                 </tr>
             </thead>
             <tbody>
-                @foreach (var player in playersViewModel.players)
+                @if (Model.players.Count != 0)
                 {
-                    <tr>
-                        <td style="text-align:left">@player.name</td>
-                        <td style="text-align:center">@player.position</td>
-                        <td class="row" style="text-align:center">
-                            @*<img class="col" src="@player.nationURL" height="118" width="118"/>*@
-                            <span class="@player.nationCSS"></span>
-                            <p class="col">@player.nationality</p>
-                        </td>
-                    </tr>
-                }
+                    @foreach (var player in Model.players)
+                    {
+                        <tr>
+                            
+                            <td style="text-align:left">
+                                <div class="row">
+                                    @*<img class="col" src="https://resources.premierleague.com/premierleague/photos/players/40x40/Photo-Missing.png" height="40" width="40"/>*@
+                                    <p class="col">@player.name</p>
+                                </div>
+                            </td>
+                            <td style="text-align:center">@player.position</td>
+                            <td class="row" style="text-align:center">
+                                @*<img class="col" src="@player.nationURL" height="118" width="118"/>*@
+                                <span class="@player.nationCSS"></span>
+                                <p class="col">@player.nationality</p>
+                            </td>
+                        </tr>
+                    }
+}
+else
+{
+                        <h1>No Players with this name were found</h1>
+}
+
             </tbody>
 
         </table>
