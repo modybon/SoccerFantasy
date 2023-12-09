@@ -18,10 +18,16 @@
     <PackageReference Include="Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation" Version="7.0.13" />
   </ItemGroup>
   <ItemGroup>
-    <None Remove="Controllers\API Controllers\" />
+    <None Remove="Models\ViewComponents\" />
+    <None Remove="Views\Teams\" />
+    <None Remove="Views\Shared\Components\" />
+    <None Remove="Views\Shared\Components\TeamPageHeader\" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Controllers\API Controllers\" />
+    <Folder Include="Models\ViewComponents\" />
+    <Folder Include="Views\Teams\" />
+    <Folder Include="Views\Shared\Components\" />
+    <Folder Include="Views\Shared\Components\TeamPageHeader\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\ViewModels\" />

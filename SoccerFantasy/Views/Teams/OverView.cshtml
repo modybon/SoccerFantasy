@@ -1,0 +1,81 @@
+﻿@model SoccerFantasy.Models.Team
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .header-title{
+            font-weight : bold;
+            margin-top : 30px;
+            margin-bottom : 30px;
+        }
+        button{
+            margin-bottom: 10px;
+        }
+        .container{
+            text-align:center;
+        }
+        .center {
+            margin: auto;
+            width: 30%;
+        }
+    </style>
+</head>
+<body>
+    @await Component.InvokeAsync("TeamPageHeader", Model)
+    <div class="header-title">
+        Visit @Model.name Website
+    </div>
+    <div>
+        <button class="row">
+            Official Website
+        </button>
+        <button class="row">
+            Club shop
+        </button>
+        <button class="row">
+            Buy Matchday Hospitality
+        </button>
+    </div>
+    <div class="header-title">
+        Buy @Model.name Tickets
+    </div>
+    <button class="row button">
+        Club Ticket Information
+    </button>
+    <div class="row">
+        <div class="header-title">
+            Fixtures
+        </div>
+        <div class="center row" style="text-align : center; margin:auto; width:50%;">
+            <div class="row">
+                <div class="row" style="text-align:center; margin: auto; justify-content:center">
+                    Saturday 25 November
+                </div>
+                <div class="center col">
+                    <div>
+                        <img src="@Model.clubLogo" width="40" height="40" />
+                    </div>
+                    <div>
+                        @Model.name
+                    </div>
+                </div>
+                <div class="col" style="text-align:center; margin:auto">
+                    VS
+                </div>
+                <div class="center col">
+                    <div>
+                        <img src="@Model.clubLogo" width="40" height="40" />
+                    </div>
+                    <div>
+                        @Model.name
+                    </div>
+                </div>
+            </div>  
+        </div>
+    </div>
+</body>
+</html>
+

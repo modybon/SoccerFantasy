@@ -1,0 +1,63 @@
+﻿@model SoccerFantasy.Models.Team
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .image-container {
+            position: relative;
+            width: 100%; /* Adjust the width and height as needed */
+            height: 294px;
+        }
+
+        .background-image {
+            position: absolute;
+            top: 0;
+            left: 0;
+            z-index: 1; /* Ensure the background image is behind */
+            width: 100%; /* Stretch to container size */
+            height: 100%;
+        }
+
+        .foreground-image {
+            position: absolute;
+            bottom: 0;
+            left: 0;
+            z-index: 2; /* Ensure the foreground image is on top */
+            height: 40%;
+        }
+        .col a {
+            display: block;
+            width: 100%;
+            height: 100%;
+            text-decoration: none; /* Remove underline if needed */
+            color: inherit; /* Inherit text color from parent */
+        }
+    </style>
+</head>
+<body>
+    <div class="image-container">
+        <img src="https://resources.premierleague.com/photos/2023/06/13/fc4f9af1-3dbb-4563-ad52-b2e445048e3b/Arsenal_1920x1280.jpg?width=1400&height=436" class="background-image" />
+        <img src="@Model.clubLogo" class="foreground-image" />
+    </div>
+    <div class="row">
+        <button class="col">
+            @Html.ActionLink("Over View", "OverView", new { teamName = @Model.name }, null)
+        </button>
+        <button class="col">
+            @Html.ActionLink("Squad", "Squad", new { teamName = @Model.name }, null)
+        </button>
+        <button class="col">
+            @Html.ActionLink("Fixtures", "Fixtures", new { teamName = @Model.name }, null)
+        </button>
+        <button class="col">
+            @Html.ActionLink("Results", "Results", new { teamName = @Model.name }, null)
+        </button>
+        <button class="col">
+            @Html.ActionLink("Stats", "Stats", new { teamName = @Model.name }, null)
+        </button>
+    </div>
+</body>
+</html>
+

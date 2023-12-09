@@ -22,7 +22,7 @@
     <header class="d-none d-sm-block">
         <div class="container-fluid">
             <h4>Club Sites</h4>
-            <ul class="row list-unstyled">
+            <ul class="row list-unstyled" style="width:100%">
                 @foreach (string clubLogo in sharedViewModel.teamsLogos)
                 {
                     <li class="col">
@@ -41,7 +41,7 @@
         <nav class=" navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
             <div class="purple_background container-fluid">
                 <div class="col">
-                    <img src="https://www.premierleague.com/resources/rebrand/v7.131.3/i/elements/pl-main-logo.png" height="112" width="112" />
+                    <img src="https://www.premierleague.com/resources/rebrand/i/elements/pl-main-logo.png" height="112" width="112" />
                 </div>
                 <button class="navbar-toggler custom-white-button" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
@@ -65,7 +65,7 @@
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Stats</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Index">Clubs</a>
+                            <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="TeamsPage">Teams</a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-white" asp-area="" asp-controller="Home" asp-action="Players">Players</a>

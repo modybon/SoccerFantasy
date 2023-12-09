@@ -1,6 +1,7 @@
 ﻿using System.Diagnostics;
 using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using SoccerFantasy.Models;
 
 namespace SoccerFantasy.Controllers;
@@ -19,6 +20,30 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         return View();
+    }
+
+    //[HttpGet]
+    //public IActionResult TeamPage()
+    //{
+    //    return View();
+    //}
+
+    [HttpGet]
+    public IActionResult TeamsPage()
+    {
+        List<Team> teams = dataContext.teams.ToList();
+        return View(teams);
+    }
+
+    [HttpGet]
+    public IActionResult PlayerPage(Guid playerId)
+    {
+        Player playerQuery = dataContext.players
+            .Include(player => player.teamRef)
+            .First(player => player.playerId == playerId);
+
+        Console.WriteLine($"Player is: {playerQuery.name}");
+        return View(playerQuery);
     }
 
     [HttpGet]
@@ -83,5 +108,8 @@ public class HomeController : Controller
             return View("Players", viewModel);
         }
     }
+
+    
+
 }
 

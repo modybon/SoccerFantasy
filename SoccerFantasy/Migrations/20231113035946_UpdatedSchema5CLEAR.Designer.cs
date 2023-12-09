@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SoccerFantasy.Models;
 
@@ -10,9 +11,11 @@ using SoccerFantasy.Models;
 namespace SoccerFantasy.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20231113035946_UpdatedSchema5CLEAR")]
+    partial class UpdatedSchema5CLEAR
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
@@ -124,16 +127,18 @@ namespace SoccerFantasy.Migrations
                     b.Property<byte>("awayScore")
                         .HasColumnType("TINYINT UNSIGNED");
 
-                    b.Property<string>("awayTeamName")
+                    b.Property<Guid>("awayTeamNameId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("awayTeamNamename")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<byte>("awayTotalShots")
                         .HasColumnType("TINYINT UNSIGNED");
 
-                    b.Property<string>("date")
-                        .IsRequired()
-                        .HasColumnType("TEXT");
+                    b.Property<DateTime>("date")
+                        .HasColumnType("date");
 
                     b.Property<byte>("homePossesion")
                         .HasColumnType("TINYINT UNSIGNED");
@@ -141,21 +146,21 @@ namespace SoccerFantasy.Migrations
                     b.Property<byte>("homeScore")
                         .HasColumnType("TINYINT UNSIGNED");
 
-                    b.Property<string>("homeTeamName")
+                    b.Property<Guid>("homeTeamNameId")
+                        .HasColumnType("TEXT");
+
+                    b.Property<string>("homeTeamNamename")
                         .IsRequired()
                         .HasColumnType("TEXT");
 
                     b.Property<byte>("homeTotalShots")
                         .HasColumnType("TINYINT UNSIGNED");
 
-                    b.Property<bool>("matchPlayed")
-                        .HasColumnType("INTEGER");
-
                     b.HasKey("matchId");
 
-                    b.HasIndex("awayTeamName");
+                    b.HasIndex("awayTeamNamename");
 
-                    b.HasIndex("homeTeamName");
+                    b.HasIndex("homeTeamNamename");
 
                     b.ToTable("matches");
                 });
@@ -184,18 +189,6 @@ namespace SoccerFantasy.Migrations
 
                     b.Property<int>("goals")
                         .HasColumnType("INTEGER");
-
-                    b.Property<Guid?>("matchId")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("matchId1")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("matchId2")
-                        .HasColumnType("uniqueidentifier");
-
-                    b.Property<Guid?>("matchId3")
-                        .HasColumnType("uniqueidentifier");
 
                     b.Property<string>("name")
                         .IsRequired()
@@ -226,14 +219,6 @@ namespace SoccerFantasy.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("playerId");
-
-                    b.HasIndex("matchId");
-
-                    b.HasIndex("matchId1");
-
-                    b.HasIndex("matchId2");
-
-                    b.HasIndex("matchId3");
 
                     b.HasIndex("teamName");
 
@@ -356,41 +341,25 @@ namespace SoccerFantasy.Migrations
 
             modelBuilder.Entity("SoccerFantasy.Models.Match", b =>
                 {
-                    b.HasOne("SoccerFantasy.Models.Team", "awayTeam")
+                    b.HasOne("SoccerFantasy.Models.Team", "awayTeamName")
                         .WithMany()
-                        .HasForeignKey("awayTeamName")
+                        .HasForeignKey("awayTeamNamename")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SoccerFantasy.Models.Team", "homeTeam")
+                    b.HasOne("SoccerFantasy.Models.Team", "homeTeamName")
                         .WithMany()
-                        .HasForeignKey("homeTeamName")
+                        .HasForeignKey("homeTeamNamename")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.Navigation("awayTeam");
+                    b.Navigation("awayTeamName");
 
-                    b.Navigation("homeTeam");
+                    b.Navigation("homeTeamName");
                 });
 
             modelBuilder.Entity("SoccerFantasy.Models.Player", b =>
                 {
-                    b.HasOne("SoccerFantasy.Models.Match", null)
-                        .WithMany("awayStartingPlayers")
-                        .HasForeignKey("matchId");
-
-                    b.HasOne("SoccerFantasy.Models.Match", null)
-                        .WithMany("awaySubPlayers")
-                        .HasForeignKey("matchId1");
-
-                    b.HasOne("SoccerFantasy.Models.Match", null)
-                        .WithMany("homeStartingPlayers")
-                        .HasForeignKey("matchId2");
-
-                    b.HasOne("SoccerFantasy.Models.Match", null)
-                        .WithMany("homeSubPlayers")
-                        .HasForeignKey("matchId3");
-
                     b.HasOne("SoccerFantasy.Models.Team", "teamRef")
                         .WithMany("players")
                         .HasForeignKey("teamName")
@@ -408,17 +377,6 @@ namespace SoccerFantasy.Migrations
             modelBuilder.Entity("SoccerFantasy.Models.FantasyTeam", b =>
                 {
                     b.Navigation("FantasyTeamLeagues");
-                });
-
-            modelBuilder.Entity("SoccerFantasy.Models.Match", b =>
-                {
-                    b.Navigation("awayStartingPlayers");
-
-                    b.Navigation("awaySubPlayers");
-
-                    b.Navigation("homeStartingPlayers");
-
-                    b.Navigation("homeSubPlayers");
                 });
 
             modelBuilder.Entity("SoccerFantasy.Models.Team", b =>
