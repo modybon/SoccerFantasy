@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SoccerFantasy.Models;
 
@@ -10,9 +11,11 @@ using SoccerFantasy.Models;
 namespace SoccerFantasy.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20231209041941_UpdatedSchema6")]
+    partial class UpdatedSchema6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
@@ -180,9 +183,6 @@ namespace SoccerFantasy.Migrations
                     b.Property<int>("cleanSheets")
                         .HasColumnType("INTEGER");
 
-                    b.Property<Guid?>("fantasyTeamId")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<int>("fantasy_round_points")
                         .HasColumnType("INTEGER");
 
@@ -230,8 +230,6 @@ namespace SoccerFantasy.Migrations
                         .HasColumnType("TEXT");
 
                     b.HasKey("playerId");
-
-                    b.HasIndex("fantasyTeamId");
 
                     b.HasIndex("matchId");
 
@@ -375,10 +373,6 @@ namespace SoccerFantasy.Migrations
 
             modelBuilder.Entity("SoccerFantasy.Models.Player", b =>
                 {
-                    b.HasOne("SoccerFantasy.Models.FantasyTeam", null)
-                        .WithMany("players")
-                        .HasForeignKey("fantasyTeamId");
-
                     b.HasOne("SoccerFantasy.Models.Match", null)
                         .WithMany("awayStartingPlayers")
                         .HasForeignKey("matchId");
@@ -412,8 +406,6 @@ namespace SoccerFantasy.Migrations
             modelBuilder.Entity("SoccerFantasy.Models.FantasyTeam", b =>
                 {
                     b.Navigation("FantasyTeamLeagues");
-
-                    b.Navigation("players");
                 });
 
             modelBuilder.Entity("SoccerFantasy.Models.Match", b =>

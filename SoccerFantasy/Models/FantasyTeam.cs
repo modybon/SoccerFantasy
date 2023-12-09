@@ -17,8 +17,12 @@ namespace SoccerFantasy.Models
 
         public virtual ICollection<FantasyTeamLeague> FantasyTeamLeagues { get; set; }
 
+        public virtual ICollection<Player> players { get; set; }
+
         public string name { get; set; }
+
         public int totalPoints { get; set; }
+
         public int current_round_points { get; set; }
     }
 }

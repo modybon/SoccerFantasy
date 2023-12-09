@@ -11,7 +11,6 @@ namespace SoccerFantasy.Models
         public Guid user_id { get; set; }
         public string username { get; set; }
         public string password { get; set; }
-        public int totalPoints { get; set; }
-        public int currentRoundPoints { get; set; }
+        public virtual FantasyTeam fantasyTeam { get; set; }
     }
 }

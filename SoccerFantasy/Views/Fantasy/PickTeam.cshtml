@@ -1,0 +1,150 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .container {
+            position: relative;
+        }
+
+        .gk {
+            position: absolute;
+            top: 10%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            z-index: 2;
+        }
+
+        .defenders {
+            position: absolute;
+            top: 20%;
+            left: 47%;
+            transform: translateX(-50%);
+            z-index: 2;
+            display: flex;
+        }
+
+        .df {
+            margin-left: 45px; /* Adjust the spacing between defenders */
+        }
+
+        .midfielders {
+            position: absolute;
+            top: 45%;
+            left: 47%;
+            transform: translateX(-50%);
+            z-index: 2;
+            display: flex;
+        }
+
+        .mf {
+            margin-left: 45px; /* Adjust the spacing between defenders */
+        }
+        .attackers {
+            position: absolute;
+            top: 70%;
+            left: 47%;
+            transform: translateX(-50%);
+            z-index: 2;
+            display: flex;
+        }
+
+        .af {
+            margin-left: 45px; /* Adjust the spacing between defenders */
+        }
+        /* You can adjust the styles as needed */
+        .player img {
+            width: 64px; /* Set the width of player images */
+            height: 64px; /* Set the height of player images */
+        }
+
+        .soccer-field {
+            position: relative;
+            z-index: 1;
+        }
+    </style>
+</head>
+<body>
+    <div class="text-center">
+        <div class="container">
+            <img class="soccer-field" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Soccer_Field_Transparant.svg" />
+            @if (CurrentUser.Instance.fantasyTeam != null)
+            {
+                <div class="gk">
+                    <div>
+                        <img class="player" src="@CurrentUser.Instance.fantasyTeam.players.First(p=> p.position == "GK").playerImageURL" alt="Goalkeeper" height="64" width="64" />
+                        <p>@CurrentUser.Instance.fantasyTeam.players.First(p => p.position == "GK").name</p>
+                    </div>
+
+                </div>
+                <div class="defenders">
+                    @foreach (Player player in CurrentUser.Instance.fantasyTeam.players.Where(p => p.position == "DF").Take(4))
+                    {
+                        <div style="align-items: center;">
+                            <img class="df img" src="@player.playerImageURL" alt="Defender 1" height="64" width="64" />
+                            <p style="text-align: center;">@player.name</p>
+                        </div>
+                    }
+                </div>
+                <div class="midfielders">
+                    @foreach (Player player in CurrentUser.Instance.fantasyTeam.players.Where(p => p.position == "MF").Take(4))
+                    {
+                        <div>
+                            <img class="df img" src="@player.playerImageURL" alt="Defender 1" height="64" width="64" />
+                            <p class="text-center">@player.name</p>
+                        </div>
+                    }
+                </div>
+                <div class="attackers">
+                    @foreach (Player player in CurrentUser.Instance.fantasyTeam.players.Where(p => p.position == "FW").Take(2))
+                    {
+                        <div>
+                            <img class="df img" src="@player.playerImageURL" alt="Defender 1" height="64" width="64" />
+                            <p>@player.name</p>
+                        </div>
+                    }
+                </div>
+            }
+            else
+            {
+                <div class="gk">
+                    <div>
+                        <img class="player" src="https://cdn-icons-png.flaticon.com/64/2265/2265274.png" alt="Goalkeeper" height="64" width="64" />
+                        <p>GK</p>
+                    </div>
+
+                </div>
+                <div class="defenders">
+                    @for(int i = 0; i<4 ; i++)
+                    {
+                        <div style="align-items: center;" class="df">
+                            <img class="player" src="https://cdn-icons-png.flaticon.com/64/2265/2265274.png" alt="Goalkeeper" height="64" width="64" />
+                            <p>DF</p>
+                        </div>
+                    }
+                </div>
+                <div class="midfielders">
+                    @for (int i = 0; i < 4; i++)
+                    {
+                        <div style="align-items: center;" class="mf">
+                            <img class="player" src="https://cdn-icons-png.flaticon.com/64/2265/2265274.png" alt="Goalkeeper" height="64" width="64" />
+                            <p>MF</p>
+                        </div>
+                    }
+                </div>
+                <div class="attackers">
+                    @for (int i = 0; i < 2; i++)
+                    {
+                        <div style="align-items: center;" class="af">
+                            <img class="player" src="https://cdn-icons-png.flaticon.com/64/2265/2265274.png" alt="Goalkeeper" height="64" width="64" />
+                            <p>FW</p>
+                        </div>
+                    }
+                </div>
+            }
+        </div>
+    </div>
+    <button class="btn btn-primary">Save Changes</button>
+</body>
+</html>
