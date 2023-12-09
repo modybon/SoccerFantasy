@@ -1,14 +1,134 @@
-﻿<!DOCTYPE html>
+﻿@model SoccerFantasy.Models.Player
+<!DOCTYPE html>
 
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/flag-icons-main/css/flag-icons.min.css" />
+    <style>
+        .blue-background {
+            background: linear-gradient(to bottom, #40aeff,#7b5fff)
+        }
+
+        .white-color {
+            color: white; /* Set the background color to white */
+        }
+
+        .card {
+            width: 100%;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            margin-bottom : 15px;
+            padding: 10px;
+            background-color: #fff;
+        }
+
+        /* Style for the card title */
+        .card-title {
+            font-size: 20px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        /* Style for the card content */
+        .card-content .row {
+            border-bottom: 0.2px solid #ccc; /* Add a bottom border to separate the rows */
+            padding-bottom: 10px; /* Adjust as needed */
+            margin-bottom: 10px; /* Adjust as needed */
+        }
+    </style>
 </head>
 <body>
-    <div>
-        @RenderBody()
+    <header class="row blue-background mb-3">
+        <h1 class="col-2 white-color" style="color:white; font-weight:bolder">
+            @Model.name
+        </h1>
+        <div style="text-align:right;" height="250" width="250">
+            @if (Model.playerImageURL != "null")
+            {
+                <img src="@Model.playerImageURL" />
+            }
+            else
+            {
+                <img src="https://resources.premierleague.com/premierleague/photos/players/40x40/Photo-Missing.png" height="250" width="250" />
+            }
+
+        </div>
+        
+    </header>
+    <div class="card">
+        <div class="card-title">Personal Details</div>
+        <div class="card-content">
+            <div class="row mb-1">
+                <div class="col">
+                    Nationality
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    <span class="@Model.nationCSS"></span>
+                    @Model.nationality
+                </div>
+            </div>
+            <div class="row mb-1">
+                <div class="col">
+                    Age
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    @Model.age
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Position
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    @Model.position
+                </div>
+            </div>
+            <div class="row mb-1">
+                <div class="col">
+                    Club
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    <a href="https://localhost:7274/Teams/OverView?teamName=@Model.teamName">
+                        @Model.teamName
+                    </a>
+                    <img src="@Model.teamRef.clubLogo" width="30" height="30" />
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="card">
+        <div class="card-title">
+            Premier League Record
+        </div>
+        <div class="card-content">
+            <div class="row mb-1">
+                <div class="col">
+                    Apperances
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    0
+                </div>
+            </div>
+            <div class="row mb-1">
+                <div class="col">
+                    Goals
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    @Model.goals
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    Assists
+                </div>
+                <div class="col-2 text-center" style="font-weight:bold">
+                    @Model.assists
+                </div>
+            </div>
+        </div>
 </body>
 </html>
 

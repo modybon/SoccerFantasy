@@ -11,34 +11,42 @@ namespace SoccerFantasy.Models
         public Guid matchId { get; set; }
 
 
-        public Guid homeTeamNameId { get; set; }
+        public string homeTeamName { get; set; }
 
-        public Guid awayTeamNameId { get; set; }
+        public string awayTeamName { get; set; }
 
-        public virtual Team homeTeamName { get; set; }
+        public virtual Team homeTeam { get; set; }
 
-        public virtual Team awayTeamName { get; set; }
+        public virtual Team awayTeam { get; set; }
 
-        [Column(TypeName = "date")]
-        public DateTime date { get; set; }
+        public virtual List<Player> homeStartingPlayers { get; set; }
+        public virtual List<Player> homeSubPlayers { get; set; }
 
-        [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte homeScore { get; set; }
+        public virtual List<Player> awayStartingPlayers { get; set; }
+        public virtual List<Player> awaySubPlayers { get; set; }
 
-        [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte awayScore { get; set; }
-
-        [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte homePossesion { get; set; }
+        
+        public string date { get; set; }
 
         [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte awayPossesion { get; set; }
+        public byte homeScore { get; set; } = 0;
 
         [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte homeTotalShots { get; set; }
+        public byte awayScore { get; set; } = 0;
 
         [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte awayTotalShots { get; set; }
+        public byte homePossesion { get; set; } = 0;
+
+        [Column(TypeName = "TINYINT UNSIGNED")]
+        public byte awayPossesion { get; set; } = 0;
+
+        [Column(TypeName = "TINYINT UNSIGNED")]
+        public byte homeTotalShots { get; set; } = 0;
+
+        [Column(TypeName = "TINYINT UNSIGNED")]
+        public byte awayTotalShots { get; set; } = 0;
+
+        public bool matchPlayed { get; set; } = false;
     }
 }
 

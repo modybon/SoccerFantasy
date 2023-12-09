@@ -1,0 +1,38 @@
+﻿@model List<SoccerFantasy.Models.Team>
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <style>
+        .wholediv {
+            width: 100px;
+            height: 100px;
+            background-color: white;
+        }
+
+        .wholediv a {
+             width: 100px;
+             height: 100px;
+             display: block;
+             background-color: pink;
+         }
+    </style>
+</head>
+<body>
+    <div class="row">
+        @foreach (Team team in Model)
+        {
+            <a href="https://localhost:7274/Teams/OverView?teamName=@team.name" class="col-2">
+                <div class="mb-4 mr-2 wholediv">
+                    <img src="@team.clubLogo" height="60" width="60" />
+                    <div>@team.name</div>
+                </div>
+            </a>
+        }
+    </div>
+</body>
+</html>
+

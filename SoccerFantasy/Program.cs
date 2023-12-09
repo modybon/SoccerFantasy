@@ -6,7 +6,6 @@ var builder = WebApplication.CreateBuilder(args);
 //
 // Add services to the container.
 builder.Services.AddControllersWithViews().AddRazorRuntimeCompilation(); // Adds hot-reloading
-builder.Services.AddControllersWithViews();
 builder.Services.AddDbContext<DataContext>(opts =>
 {
     opts.UseSqlite(builder.Configuration["ConnectionStrings:MatchesConnection"]);
@@ -37,6 +36,8 @@ app.MapGet("/api", async (context) =>
 });
 
 var context = app.Services.CreateScope().ServiceProvider.GetRequiredService<DataContext>();
+var matchesGenerator = new MatchesGenerator(context);
+//matchesGenerator.GenerateMatches();
 
 DataInit dataInit = new DataInit(context);
 
@@ -51,6 +52,10 @@ app.UseAuthorization();
 app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
+
+app.MapControllerRoute(
+    name: "default",
+    pattern: "{controller=Teams}/{action=Index}/{id?}");
 
 app.Run();
 
