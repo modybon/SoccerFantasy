@@ -1,8 +1,14 @@
-﻿<!DOCTYPE html>
+﻿@model List<Player>
+@{
+    var fwPlayers = Model.Where(p => p.position == "FW");
+}
+<!DOCTYPE html>
 <html>
 <head>
     <meta name="viewport" content="width=device-width" />
+    <link rel="stylesheet" href="~/lib/flag-icons-main/css/flag-icons.min.css" />
     <title>@ViewBag.Title</title>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
     <style>
         .container {
             position: relative;
@@ -41,6 +47,7 @@
         .mf {
             margin-left: 45px; /* Adjust the spacing between defenders */
         }
+
         .attackers {
             position: absolute;
             top: 70%;
@@ -66,8 +73,8 @@
     </style>
 </head>
 <body>
-    <div class="text-center">
-        <div class="container">
+    <div class="text-center row">
+        <div class="container col">
             <img class="soccer-field" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Soccer_Field_Transparant.svg" />
             @if (CurrentUser.Instance.fantasyTeam != null)
             {
@@ -116,7 +123,7 @@
 
                 </div>
                 <div class="defenders">
-                    @for(int i = 0; i<4 ; i++)
+                    @for (int i = 0; i < 4; i++)
                     {
                         <div style="align-items: center;" class="df">
                             <img class="player" src="https://cdn-icons-png.flaticon.com/64/2265/2265274.png" alt="Goalkeeper" height="64" width="64" />
@@ -136,15 +143,58 @@
                 <div class="attackers">
                     @for (int i = 0; i < 2; i++)
                     {
-                        <div style="align-items: center;" class="af">
+                        <button style="align-items: center;" class="af" onclick="toggleTable('FW')">
                             <img class="player" src="https://cdn-icons-png.flaticon.com/64/2265/2265274.png" alt="Goalkeeper" height="64" width="64" />
                             <p>FW</p>
-                        </div>
+                        </button>
+
                     }
                 </div>
             }
+        </div>
+        <div id="tableContainer" class="col" style="display:none;">
+            <div class="table-container" style="max-height: 690px; overflow-y: auto; max-width: 100%">
+                <table id="playersTable" style="max-width: 100%">
+                    <thead style="background-color: gray; width: 100%;">
+                        <tr style="max-width: 100%">
+                            <th style="text-align:left">Name</th>
+                            <th style="text-align:center">Position</th>
+                            <th style="text-align: center">Nationality</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                    </tbody>
+                </table>
+            </div>
         </div>
     </div>
     <button class="btn btn-primary">Save Changes</button>
 </body>
 </html>
+<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+<script>function toggleTable(position) {
+        var tableContainer = document.getElementById("tableContainer");
+        var playersTable = document.getElementById("playersTable");
+        var tableBody = playersTable.getElementsByTagName('tbody')[0];
+        tableBody.innerHTML = "";
+
+        // Corrected syntax for $.getJSON
+        $.getJSON(`https://localhost:7274/Fantasy/getPlayersByPosition?position=${position}`, function (playersList) {
+            for (var i = 0; i < playersList.length; i++) {
+                var player = playersList[i];
+                var row = tableBody.insertRow();
+
+                var nameCell = row.insertCell(0);
+                nameCell.textContent = player.name
+
+                var positionCell = row.insertCell(1);
+                positionCell.textContent = player.position
+
+                var nationalityCell = row.insertCell(2);
+                nationalityCell.textContent = player.nationality
+            }
+
+            // Toggle the display property
+            tableContainer.style.display = (tableContainer.style.display === "none") ? "block" : "none";
+        });
+    }</script>
