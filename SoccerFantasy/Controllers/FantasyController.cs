@@ -4,40 +4,51 @@ using System.Runtime.InteropServices.JavaScript;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SoccerFantasy.Models;
+using SoccerFantasy.Models.ViewModels;
 
 namespace SoccerFantasy.Controllers
 {
 	public class FantasyController : Controller
 	{
 		private DataContext dataContext;
+		private PlayersController playersController;
 		public FantasyController(DataContext dc)
 		{
 			dataContext = dc;
-		}
+            playersController = new PlayersController(dataContext);
+        }
 
 		public IActionResult Index()
 		{
-			CurrentUser.Instance = new User()
-			{
-				username = "fahmy",
-				//fantasyTeam = new FantasyTeam()
-				//{
-				//	players = dataContext.teams.Include(t => t.players).First(t => t.name == "Arsenal").players
-				//}
-			}; // Remove when u are done with this page
+			//CurrentUser.Instance = new User()
+			//{
+			//	username = "fahmy",
+			//	//fantasyTeam = new FantasyTeam()
+			//	//{
+			//	//	players = dataContext.teams.Include(t => t.players).First(t => t.name == "Arsenal").players
+			//	//}
+			//}; // Remove when u are done with this page
+			
+
             return View();
 		}
 		public IActionResult PickTeam()
 		{
             List<Player> players = dataContext.players.ToList();
-            return View(players);
+            FantasyTeam fantasyTeam = new FantasyTeam();
+			PickTeamViewModel viewModel = new PickTeamViewModel()
+			{
+				players = players,
+				fantasyTeam = fantasyTeam
+			};
+            return View("PickTeam",viewModel);
         }
 
-		public ActionResult getPlayersByPosition(string position)
+		public void addPlayer(string id)
 		{
-			var players = dataContext.players.Where(p => p.position == position).ToList();
-			return Json(players);
-        }
+			playersController.addPlayerToFantasyTeam(id);
+			PickTeam();
+		}
 	}
 }
 
