@@ -1,5 +1,4 @@
-﻿@model SoccerFantasy.Models.ViewModels.PickTeamViewModel
-@{
+﻿@{
     
 }
 <!DOCTYPE html>
@@ -78,7 +77,7 @@
     <div class="text-center row">
         <div class="container col">
             <img class="soccer-field" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Soccer_Field_Transparant.svg" />
-            @if (Model.fantasyTeam.players != null)
+            @if (CurrentUser.Instance.fantasyTeam.players.Count() == 11)
             {
                 <div class="gk">
                     <div>

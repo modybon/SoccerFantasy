@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Numerics;
 using System.Runtime.InteropServices.JavaScript;
 using Microsoft.AspNetCore.Mvc;
@@ -11,45 +12,81 @@ namespace SoccerFantasy.Controllers
 	public class FantasyController : Controller
 	{
 		private DataContext dataContext;
-		private PlayersController playersController;
 		public FantasyController(DataContext dc)
 		{
 			dataContext = dc;
-            playersController = new PlayersController(dataContext);
         }
 
 		public IActionResult Index()
 		{
-			//CurrentUser.Instance = new User()
-			//{
-			//	username = "fahmy",
-			//	//fantasyTeam = new FantasyTeam()
-			//	//{
-			//	//	players = dataContext.teams.Include(t => t.players).First(t => t.name == "Arsenal").players
-			//	//}
-			//}; // Remove when u are done with this page
-			
-
-            return View();
+            List<int> points = dataContext.fantasyTeams.Select(ft => ft.current_round_points).ToList();
+            int averageRoundPoints = (int)points.Average();
+            int highest = points.Max();
+            FantasyIndexViewModel viewModel = new FantasyIndexViewModel()
+            {
+                averageRoundPoints = averageRoundPoints,
+                highestRoundPoints = highest
+            };
+            return View("Index",viewModel);
 		}
 		public IActionResult PickTeam()
 		{
-            List<Player> players = dataContext.players.ToList();
-            FantasyTeam fantasyTeam = new FantasyTeam();
-			PickTeamViewModel viewModel = new PickTeamViewModel()
-			{
-				players = players,
-				fantasyTeam = fantasyTeam
-			};
-            return View("PickTeam",viewModel);
+            return View("PickTeam");
         }
 
-		public void addPlayer(string id)
+		[HttpGet]
+		public IActionResult SignIn()
 		{
-			playersController.addPlayerToFantasyTeam(id);
-			PickTeam();
+			return View();
 		}
-	}
+
+        [HttpPost]
+        public IActionResult SignIn(string userName,string password)
+        {
+			User? user = dataContext.users
+                .Include(u=> u.fantasyTeam)
+                .ThenInclude(ft=> ft.players)
+                .FirstOrDefault(u => u.username == userName && u.password == password);
+			if(user != null)
+			{
+				CurrentUser.Instance = user;
+                return RedirectToAction("Index");
+            }
+			else
+			{
+				Console.WriteLine("Wrong crednetials");
+                return RedirectToAction("SignIn");
+            }
+        }
+
+        [HttpGet]
+        public IActionResult Register()
+		{
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult Register(string fantasyTeamName, string userName, string password)
+        {
+			if(!dataContext.users.Any(u=> u.username == userName))
+			{
+                User newUser = new User() { username = userName, password = password};
+                dataContext.users.Add(newUser);
+                dataContext.SaveChanges();
+                FantasyTeam fantasyTeam = new FantasyTeam() { user = newUser, name = fantasyTeamName};
+                dataContext.fantasyTeams.Add(fantasyTeam);
+                dataContext.SaveChanges();
+                CurrentUser.Instance = newUser;
+                return RedirectToAction("Index");
+            }
+			else
+			{
+                Console.WriteLine("UserName already in use");
+                return RedirectToAction("Register");
+            }
+			
+        }
+    }
 }
 
 //@foreach(var player in Model)
@@ -81,3 +118,11 @@ namespace SoccerFantasy.Controllers
 //                                </ td >
 //                            </ tr >
 //                        }
+
+//         List<Player> players = dataContext.players.ToList();
+//         FantasyTeam fantasyTeam = new FantasyTeam();
+//PickTeamViewModel viewModel = new PickTeamViewModel()
+//{
+//	players = players,
+//	fantasyTeam = fantasyTeam
+//};
