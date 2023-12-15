@@ -7,7 +7,7 @@ namespace SoccerFantasy.Models
 {
     //player class
     [Table("Players")]
-    public class Player
+    public class Player : IEquatable<Player>
     {
         [Key,Column(TypeName = "uniqueidentifier")]
         public Guid playerId { get; set; }
@@ -41,17 +41,30 @@ namespace SoccerFantasy.Models
         public string nationURL { get; set; }
 
         public string nationCSS { get; set; }
-        
-        //override public string ToString()
-        //{
-        //    return $"name: {this.name}\n " +
-        //        $"club: {this.teamName}\n, " +
-        //        $"age: {this.age}\n " +
-        //        $"nationality:{this.nationality}\n";
-        //}
 
-    }
+        public override bool Equals(object? obj)
+        {
+            if(obj == null || GetType() != obj.GetType())
+            {
+                return false;
+            }
+            Player otherPlayer = (Player)obj;
+            return playerId.Equals(otherPlayer.playerId);
+        }
 
-    
+        public bool Equals(Player? other)
+        {
+            if(other == null)
+            {
+                return false;
+            }
+            return playerId == other.playerId;
+        }
+
+        public override int GetHashCode()
+        {
+            return playerId.GetHashCode();
+        }
+    }    
 }
 

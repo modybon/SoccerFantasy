@@ -71,7 +71,7 @@ namespace SoccerFantasy.Models
                         {
                             player.nationCSS = $"fi fi-{player.nationality.ToLower().Substring(0, 2)}";
                         }
-
+                        player.position = player.position.Substring(0, 2);
                         players.Add(player);
                     }
                 }

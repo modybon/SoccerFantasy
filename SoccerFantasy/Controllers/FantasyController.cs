@@ -20,17 +20,19 @@ namespace SoccerFantasy.Controllers
 		public IActionResult Index()
 		{
             List<int> points = dataContext.fantasyTeams.Select(ft => ft.current_round_points).ToList();
-            int averageRoundPoints = (int)points.Average();
-            int highest = points.Max();
-            FantasyIndexViewModel viewModel = new FantasyIndexViewModel()
+            FantasyIndexViewModel viewModel = new FantasyIndexViewModel();
+            if(points.Count() != 0)
             {
-                averageRoundPoints = averageRoundPoints,
-                highestRoundPoints = highest
-            };
-            return View("Index",viewModel);
+                int? averageRoundPoints = (int?)points.Average() ?? 0;
+                int? highest = (int?)points.Max() ?? 0;
+                viewModel.averageRoundPoints = averageRoundPoints;
+                viewModel.highestRoundPoints = highest;
+            }
+            return View("Index", viewModel);
 		}
 		public IActionResult PickTeam()
 		{
+            User user = CurrentUser.Instance;
             return View("PickTeam");
         }
 
@@ -73,10 +75,14 @@ namespace SoccerFantasy.Controllers
                 User newUser = new User() { username = userName, password = password};
                 dataContext.users.Add(newUser);
                 dataContext.SaveChanges();
-                FantasyTeam fantasyTeam = new FantasyTeam() { user = newUser, name = fantasyTeamName};
+                FantasyTeam fantasyTeam = new FantasyTeam() { user = newUser, name = fantasyTeamName , players = new List<Player>()};
                 dataContext.fantasyTeams.Add(fantasyTeam);
                 dataContext.SaveChanges();
-                CurrentUser.Instance = newUser;
+                User user = dataContext.users
+                    .Include(u => u.fantasyTeam)
+                    .ThenInclude(ft => ft.players)
+                    .First(u => u.user_id == newUser.user_id);
+                CurrentUser.Instance = user;
                 return RedirectToAction("Index");
             }
 			else
@@ -88,41 +94,3 @@ namespace SoccerFantasy.Controllers
         }
     }
 }
-
-//@foreach(var player in Model)
-//                        {
-//                            < tr class= "card-content" >
-//                                < td style = "text-align:left" >
-//                                    < div class= "row align-items-center" >
-//                                        < div class= "col-2" >
-//                                            @if(player.playerImageURL != "null")
-//                                            {
-//                                                < img src = "@player.playerImageURL" height = "40" width = "40" />
-//                                            }
-//                                            else
-//{
-//                                                < img src = "https://resources.premierleague.com/premierleague/photos/players/40x40/Photo-Missing.png" height = "40" width = "40" />
-//                                            }
-//                                        </ div >
-//                                        < div class= "col" >
-//                                            @*@Html.ActionLink($"{player.name}", "Home/PlayerPage", new { playerId = player.playerId }, null) *@
-//                                            < a href = "https://localhost:7274/Home/PlayerPage?playerId=@player.playerId" > @player.name </ a >
-//                                        </ div >
-//                                    </ div >
-//                                </ td >
-//                                < td style = "text-align:center" > @player.position </ td >
-//                                < td class= "row" style = "text-align:center" >
-//                                    @*< img class= "col" src = "@player.nationURL" height = "118" width = "118" /> *@
-//                                    < span class= "@player.nationCSS mr-7" ></ span >
-//                                    < p class= "col" > @player.nationality </ p >
-//                                </ td >
-//                            </ tr >
-//                        }
-
-//         List<Player> players = dataContext.players.ToList();
-//         FantasyTeam fantasyTeam = new FantasyTeam();
-//PickTeamViewModel viewModel = new PickTeamViewModel()
-//{
-//	players = players,
-//	fantasyTeam = fantasyTeam
-//};
