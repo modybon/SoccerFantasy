@@ -1,6 +1,7 @@
 ﻿@{
     string fteamId = CurrentUser.Instance.fantasyTeam.fantasyTeamId.ToString();
 }
+
 <!DOCTYPE html>
 <html>
 <head>
@@ -52,7 +53,7 @@
         .attackers {
             position: absolute;
             top: 70%;
-            left: 47%;
+            left: 50%;
             transform: translateX(-50%);
             z-index: 2;
             display: flex;
@@ -61,6 +62,7 @@
         .af {
             margin-left: 45px; /* Adjust the spacing between defenders */
         }
+
         /* You can adjust the styles as needed */
         .player img {
             width: 64px; /* Set the width of player images */
@@ -70,35 +72,44 @@
         .soccer-field {
             position: relative;
             z-index: 1;
-            height : 950px;
+            height: 950px;
         }
     </style>
 </head>
 <body>
     <div class="text-center row">
         <div class="container col">
-            <img class="soccer-field" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Soccer_Field_Transparant.svg"/>
+            <img class="soccer-field" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Soccer_Field_Transparant.svg" />
             <div class="gk" style="align-items: center;" onclick="toggleTable('GK')">
-                <button style="align-items: center;" class="gk" onclick="toggleTable('GK','@fteamId')">
-                    <img class="player" src="@(CurrentUser.Instance?.fantasyTeam?.players?.Where(p=> p.position.Contains("GK"))?.Select(p => p.playerImageURL).FirstOrDefault() ?? "https://cdn-icons-png.flaticon.com/64/2265/2265274.png")" alt="Goalkeeper" height="64" width="64" />
-                    <p>DF</p>
+                @{
+                    Player? gk = CurrentUser.Instance?.fantasyTeam?.players?.Where(p => p.position.Contains("GK"))?.FirstOrDefault();
+                    bool isAvaialble = gk !=null;
+
+                }
+                <button style="align-items: center;" class="gk" onclick="toggleTable('@isAvaialble', '@(gk?.playerId.ToString() ?? "")', 'GK', '@fteamId')">
+                    <img class="player" src="@(gk?.playerImageURL ?? "https://cdn-icons-png.flaticon.com/64/2265/2265274.png")" alt="Goalkeeper" height="64" width="64" />
+                    <p>GK</p>
+                    <p>@(gk?.fantasy_round_points ?? null)</p>
                 </button>
             </div>
+
             <div class="defenders">
                 @for (int i = 0; i < 4; i++)
+                {
+                    var player = @CurrentUser.Instance?.fantasyTeam?.players?
+                    .Where(p => p.position.Contains("DF"))?
+                    .Select(p => new
                     {
-                        var player = @CurrentUser.Instance?.fantasyTeam?.players?
-                        .Where(p => p.position.Contains("DF"))?
-                        .Select(p => new
-                        {
-                            playerName = p.name,
-                            playerImg = p.playerImageURL,
-                            points = p.fantasy_round_points
-                        }
-                        )
-                        .ToList()
-                        .ElementAtOrDefault(i);
-                    <button style="align-items: center;" class="df" onclick="toggleTable('DF','@fteamId')">
+                        id = p.playerId,
+                        playerName = p.name,
+                        playerImg = p.playerImageURL,
+                        points = p.fantasy_round_points
+                    }
+                    )
+                    .ToList()
+                    .ElementAtOrDefault(i);
+                    bool isAvailable = player != null ? true : false;
+                    <button style="align-items: center;" class="df" onclick="toggleTable('@isAvailable', '@(player?.id.ToString() ?? "")', 'DF', '@fteamId')">
                         <img class="player" src="@(player?.playerImg ?? "https://cdn-icons-png.flaticon.com/64/2265/2265274.png")" alt="Goalkeeper" height="64" width="64" />
                         <p>@(player?.playerName ?? "")</p>
                         <p>DF</p>
@@ -108,17 +119,21 @@
             </div>
             <div class="midfielders">
                 @for (int i = 0; i < 4; i++)
+                {
+                    var player = @CurrentUser.Instance?.fantasyTeam?.players?
+                    .Where(p => p.position.Contains("MF"))?
+                    .Select(p => new
                     {
-                        var player = @CurrentUser.Instance?.fantasyTeam?.players?
-                            .Where(p => p.position.Contains("MF"))?
-                            .Select(p => new {
-                                playerName = p.name,
-                                playerImg = p.playerImageURL,
-                                points = p.fantasy_round_points }
-                            )
-                            .ToList()
-                            .ElementAtOrDefault(i);
-                    <button style="align-items: center;" class="mf" onclick="toggleTable('MF','@fteamId')">
+                        id = p.playerId,
+                        playerName = p.name,
+                        playerImg = p.playerImageURL,
+                        points = p.fantasy_round_points
+                    }
+                    )
+                    .ToList()
+                    .ElementAtOrDefault(i);
+                    bool isAvailable = player != null ? true : false;
+                    <button style="align-items: center;" class="mf" onclick="toggleTable('@isAvailable', '@(player?.id.ToString() ?? "")', 'MF', '@fteamId')">
                         <img class="player" src="@(player?.playerImg ?? "https://cdn-icons-png.flaticon.com/64/2265/2265274.png")" alt="Goalkeeper" height="64" width="64" />
                         <p>@(player?.playerName ?? "")</p>
                         <p>MF</p>
@@ -128,23 +143,25 @@
             </div>
             <div class="attackers">
                 @for (int i = 0; i < 2; i++)
+                {
+                    var player = @CurrentUser.Instance?.fantasyTeam?.players?
+                    .Where(p => p.position.Contains("FW"))?
+                    .Select(p => new
                     {
-                        var player = @CurrentUser.Instance?.fantasyTeam?.players?
-                        .Where(p => p.position.Contains("FW"))?
-                        .Select(p => new
-                        {
-                            playerName = p.name,
-                            playerImg = p.playerImageURL,
-                            points = p.fantasy_round_points
-                        }
-                        )
-                        .ToList()
-                        .ElementAtOrDefault(i);
-                    <button style="align-items: center;" class="af" onclick="toggleTable('FW','@fteamId')">
+                        id = p.playerId,
+                        playerName = p.name,
+                        playerImg = p.playerImageURL,
+                        points = p.fantasy_round_points
+                    }
+                    )
+                    .ToList()
+                    .ElementAtOrDefault(i);
+                    bool isAvailable = player != null ? true : false;
+                    <button style="align-items: center;" class="af" onclick="toggleTable('@isAvailable', '@(player?.id.ToString() ?? "")', 'FW', '@fteamId')">
                         <img class="player" src="@(player?.playerImg ?? "https://cdn-icons-png.flaticon.com/64/2265/2265274.png")" alt="Goalkeeper" height="64" width="64" />
                         <p>@(player?.playerName ?? "")</p>
                         <p>FW</p>
-                        <p>@(player?.points ?? null)</p>
+                        <p>@(player?.points ?? 0)</p>
                     </button>
                 }
             </div>
@@ -167,14 +184,29 @@
     </div>
 </body>
 </html>
+
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-<script>
-    function toggleTable(position, fteamId) {
+
+<script>function replacePlayer(newPlayer, currentPlayer, fteamId) {
+        $.ajax({
+            type: "POST",
+            url: `https://localhost:7274/Players/replacePlayerInFantasyTeam?currentPlayerId=${currentPlayer}&fantasyTeamId=${fteamId}&newPlayerId=${newPlayer}`,
+            success: function (response) {
+                console.log(response);
+                location.reload();
+            },
+            error: function (error) {
+                console.log(error);
+            }
+        });
+    }
+
+    function toggleTable(isTaken, currentPlayer, position, fteamId) {
         var tableContainer = document.getElementById("tableContainer");
         var playersTable = document.getElementById("playersTable");
         var tableBody = playersTable.getElementsByTagName('tbody')[0];
         tableBody.innerHTML = "";
-
+        debugger;
         // Corrected syntax for $.getJSON
         $.getJSON(`https://localhost:7274/Players/getPlayersByPosition?position=${position}`, function (playersList) {
             for (var i = 0; i < playersList.length; i++) {
@@ -187,8 +219,22 @@
 
                 // Use a function to create a closure
                 function createClickHandler(playerId) {
+                    if (isTaken == "True") {
+                        return function () {
+                            $.ajax({
+                                type: "POST",
+                                url: `https://localhost:7274/Players/replacePlayerInFantasyTeam?currentPlayerId=${currentPlayer}&fantasyTeamId=${fteamId}&newPlayerId=${playerId}`,
+                                success: function (response) {
+                                    console.log(response);
+                                    location.reload();
+                                },
+                                error: function (error) {
+                                    console.log(error);
+                                }
+                            });
+                        }
+                    }
                     return function () {
-                        //debugger;
                         $.ajax({
                             type: "POST",
                             url: `https://localhost:7274/Players/addPlayerToFantasyTeam?fantasyTeamId=${fteamId}&playerId=${playerId}`,
@@ -221,4 +267,3 @@
             }
         });
     }</script>
-
