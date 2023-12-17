@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SoccerFantasy.Models;
 
@@ -10,9 +11,11 @@ using SoccerFantasy.Models;
 namespace SoccerFantasy.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20231216054639_Iteration6")]
+    partial class Iteration6
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder.HasAnnotation("ProductVersion", "7.0.13");
@@ -88,6 +91,9 @@ namespace SoccerFantasy.Migrations
                 {
                     b.Property<Guid>("goalId")
                         .ValueGeneratedOnAdd()
+                        .HasColumnType("TEXT");
+
+                    b.Property<Guid>("goalAssisterId")
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<Guid>("goalScorerId")
@@ -96,19 +102,16 @@ namespace SoccerFantasy.Migrations
                     b.Property<Guid>("matchId")
                         .HasColumnType("uniqueidentifier");
 
-                    b.Property<Guid?>("matchId1")
-                        .HasColumnType("uniqueidentifier");
-
                     b.Property<byte>("minute")
                         .HasColumnType("INTEGER");
 
                     b.HasKey("goalId");
 
+                    b.HasIndex("goalAssisterId");
+
                     b.HasIndex("goalScorerId");
 
                     b.HasIndex("matchId");
-
-                    b.HasIndex("matchId1");
 
                     b.ToTable("goals");
                 });
@@ -120,6 +123,9 @@ namespace SoccerFantasy.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<byte>("awayPossesion")
+                        .HasColumnType("TINYINT UNSIGNED");
+
+                    b.Property<byte>("awayScore")
                         .HasColumnType("TINYINT UNSIGNED");
 
                     b.Property<string>("awayTeamName")
@@ -134,6 +140,9 @@ namespace SoccerFantasy.Migrations
                         .HasColumnType("TEXT");
 
                     b.Property<byte>("homePossesion")
+                        .HasColumnType("TINYINT UNSIGNED");
+
+                    b.Property<byte>("homeScore")
                         .HasColumnType("TINYINT UNSIGNED");
 
                     b.Property<string>("homeTeamName")
@@ -181,6 +190,9 @@ namespace SoccerFantasy.Migrations
                         .HasColumnType("uniqueidentifier");
 
                     b.Property<int>("fantasy_round_points")
+                        .HasColumnType("INTEGER");
+
+                    b.Property<int>("goals")
                         .HasColumnType("INTEGER");
 
                     b.Property<Guid?>("matchId")
@@ -323,21 +335,25 @@ namespace SoccerFantasy.Migrations
 
             modelBuilder.Entity("SoccerFantasy.Models.Goal", b =>
                 {
+                    b.HasOne("SoccerFantasy.Models.Player", "goalAssister")
+                        .WithMany()
+                        .HasForeignKey("goalAssisterId")
+                        .OnDelete(DeleteBehavior.Cascade)
+                        .IsRequired();
+
                     b.HasOne("SoccerFantasy.Models.Player", "goalScorer")
-                        .WithMany("goals")
+                        .WithMany()
                         .HasForeignKey("goalScorerId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
                     b.HasOne("SoccerFantasy.Models.Match", "match")
-                        .WithMany("homeGoals")
+                        .WithMany()
                         .HasForeignKey("matchId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
 
-                    b.HasOne("SoccerFantasy.Models.Match", null)
-                        .WithMany("awayGoals")
-                        .HasForeignKey("matchId1");
+                    b.Navigation("goalAssister");
 
                     b.Navigation("goalScorer");
 
@@ -408,22 +424,13 @@ namespace SoccerFantasy.Migrations
 
             modelBuilder.Entity("SoccerFantasy.Models.Match", b =>
                 {
-                    b.Navigation("awayGoals");
-
                     b.Navigation("awayStartingPlayers");
 
                     b.Navigation("awaySubPlayers");
 
-                    b.Navigation("homeGoals");
-
                     b.Navigation("homeStartingPlayers");
 
                     b.Navigation("homeSubPlayers");
-                });
-
-            modelBuilder.Entity("SoccerFantasy.Models.Player", b =>
-                {
-                    b.Navigation("goals");
                 });
 
             modelBuilder.Entity("SoccerFantasy.Models.Team", b =>

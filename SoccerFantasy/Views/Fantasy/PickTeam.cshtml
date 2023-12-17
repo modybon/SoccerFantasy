@@ -80,12 +80,12 @@
     <div class="text-center row">
         <div class="container col">
             <img class="soccer-field" src="https://upload.wikimedia.org/wikipedia/commons/8/82/Soccer_Field_Transparant.svg" />
-            <div class="gk" style="align-items: center;" onclick="toggleTable('GK')">
-                @{
-                    Player? gk = CurrentUser.Instance?.fantasyTeam?.players?.Where(p => p.position.Contains("GK"))?.FirstOrDefault();
-                    bool isAvaialble = gk !=null;
-
-                }
+            @{
+                
+                Player? gk = CurrentUser.Instance?.fantasyTeam?.players?.Where(p => p.position.Contains("GK"))?.FirstOrDefault();
+                bool isAvaialble = gk != null;
+            }
+            <div class="gk" style="align-items: center;" onclick="toggleTable('@isAvaialble', '@(gk?.playerId.ToString() ?? "")', 'GK', '@fteamId')">
                 <button style="align-items: center;" class="gk" onclick="toggleTable('@isAvaialble', '@(gk?.playerId.ToString() ?? "")', 'GK', '@fteamId')">
                     <img class="player" src="@(gk?.playerImageURL ?? "https://cdn-icons-png.flaticon.com/64/2265/2265274.png")" alt="Goalkeeper" height="64" width="64" />
                     <p>GK</p>

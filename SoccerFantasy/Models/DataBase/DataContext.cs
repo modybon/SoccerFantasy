@@ -27,7 +27,10 @@ namespace SoccerFantasy.Models
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
+            modelBuilder.Entity<Goal>()
+                .HasOne(g => g.match)
+                .WithMany(m => m.homeGoals)
+                .HasForeignKey(g => g.matchId);
         }
     }
 

@@ -57,27 +57,39 @@ namespace SoccerFantasy.Models
                 context.fantasyTeams.Count() == 0 &&
                 context.fantasyTeamLeagues.Count() == 0)
             {
-                foreach (var team in teams)
+                using(var transaction = context.Database.BeginTransaction())
                 {
-                    context.teams.Add(team);
-
-                    foreach (Player player in team.players)
+                    try
                     {
-                        if (nationalityMapping.ContainsKey(player.nationality))
+                        foreach (var team in teams)
                         {
-                            player.nationCSS = $"fi {nationalityMapping[player.nationality]}";
+                            context.teams.Add(team);
+
+                            foreach (Player player in team.players)
+                            {
+                                if (nationalityMapping.ContainsKey(player.nationality))
+                                {
+                                    player.nationCSS = $"fi {nationalityMapping[player.nationality]}";
+                                }
+                                else
+                                {
+                                    player.nationCSS = $"fi fi-{player.nationality.ToLower().Substring(0, 2)}";
+                                }
+                                player.position = player.position.Substring(0, 2);
+                                players.Add(player);
+                            }
                         }
-                        else
-                        {
-                            player.nationCSS = $"fi fi-{player.nationality.ToLower().Substring(0, 2)}";
-                        }
-                        player.position = player.position.Substring(0, 2);
-                        players.Add(player);
+                        context.SaveChanges();
+                        var matches = matchGenerator.GenerateMatches();
+                        context.matches.AddRange(matches);
+                        context.SaveChanges();
+                        transaction.Commit();
+                    }catch(Exception error)
+                    {
+                        Console.WriteLine($"Initialization Error: {error.Message}");
+                        transaction.Rollback();
                     }
                 }
-                context.SaveChanges();
-                context.matches.AddRange(matchGenerator.GenerateMatches());
-                context.SaveChanges();
             }
         }
     }

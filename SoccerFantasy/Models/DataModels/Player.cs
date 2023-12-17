@@ -21,12 +21,12 @@ namespace SoccerFantasy.Models
         public string teamName { get; set; }
 
         public virtual Team teamRef { get; set; }
-        
+
         public string age { get; set; }
 
         public int fantasy_round_points { get; set; } = 0;
 
-        public int goals { get; set; } = 0;
+        public List<Goal> goals { get; set; }
 
         public int assists { get; set; } = 0;
 
@@ -41,6 +41,7 @@ namespace SoccerFantasy.Models
         public string nationURL { get; set; }
 
         public string nationCSS { get; set; }
+
 
         public override bool Equals(object? obj)
         {

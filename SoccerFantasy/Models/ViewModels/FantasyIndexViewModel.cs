@@ -5,6 +5,7 @@ namespace SoccerFantasy.Models.ViewModels
 	{
         public int? averageRoundPoints { get; set; }
         public int? highestRoundPoints { get; set; }
+        public FantasyTeam? currentUserFantasyTeam { get; set; }
     }
 }
 

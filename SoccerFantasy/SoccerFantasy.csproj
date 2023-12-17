@@ -24,6 +24,9 @@
     <None Remove="Views\Shared\Components\TeamPageHeader\" />
     <None Remove="Models\DataBase\" />
     <None Remove="Views\Fantasy\" />
+    <None Remove="Models\Matches\" />
+    <None Remove="Models\DataModels\" />
+    <None Remove="Models\Middlewares\" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Models\ViewComponents\" />
@@ -32,6 +35,9 @@
     <Folder Include="Views\Shared\Components\TeamPageHeader\" />
     <Folder Include="Models\DataBase\" />
     <Folder Include="Views\Fantasy\" />
+    <Folder Include="Models\Matches\" />
+    <Folder Include="Models\DataModels\" />
+    <Folder Include="Models\Middlewares\" />
   </ItemGroup>
   <ItemGroup>
     <None Remove="Models\ViewModels\" />

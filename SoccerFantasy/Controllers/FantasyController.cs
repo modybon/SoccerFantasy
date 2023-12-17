@@ -27,12 +27,17 @@ namespace SoccerFantasy.Controllers
                 int? highest = (int?)points.Max() ?? 0;
                 viewModel.averageRoundPoints = averageRoundPoints;
                 viewModel.highestRoundPoints = highest;
+                if(CurrentUser.Instance != null)
+                {
+                    viewModel.currentUserFantasyTeam = dataContext.fantasyTeams.Where(ft => ft.fantasyTeamId == CurrentUser.Instance.fantasyTeam.fantasyTeamId).FirstOrDefault();
+                }
             }
             return View("Index", viewModel);
 		}
 		public IActionResult PickTeam()
 		{
-            User user = CurrentUser.Instance;
+
+            CurrentUser.Instance.fantasyTeam = dataContext.fantasyTeams.Include(ft=> ft.players).Where(ft => ft.userId == CurrentUser.Instance.user_id).FirstOrDefault();
             return View("PickTeam");
         }
 
@@ -83,6 +88,7 @@ namespace SoccerFantasy.Controllers
                     .ThenInclude(ft => ft.players)
                     .First(u => u.user_id == newUser.user_id);
                 CurrentUser.Instance = user;
+                dataContext.SaveChanges();
                 return RedirectToAction("Index");
             }
 			else

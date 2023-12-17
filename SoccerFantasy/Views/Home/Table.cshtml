@@ -1,0 +1,64 @@
+﻿@model List<Team>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Football Table</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            width: 100%;
+        }
+
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+
+        th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Football Table</h2>
+
+    <table>
+        <thead>
+            <tr>
+                <th>Pos</th>
+                <th>Club</th>
+                <th>PL</th>
+                <th>W</th>
+                <th>D</th>
+                <th>L</th>
+                <th>GD</th>
+                <th>Pts</th>
+            </tr>
+        </thead>
+        <tbody>
+            @{
+                int pos = 1;
+            }
+            @foreach (Team team in Model)
+            {
+                <tr>
+                    <td>@pos</td>
+                    <td>@team.name</td>
+                    <td>@team.gamesPlayed</td>
+                    <td>@team.gamesWon</td>
+                    <td>@team.gamesDraw</td>
+                    <td>@team.gamesLost</td>
+                    <td>@team.goalDiff</td>
+                    <td>@team.points</td>
+                </tr>
+                    pos += 1;
+                }
+        </tbody>
+    </table>
+
+</body>
+</html>

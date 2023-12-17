@@ -3,6 +3,7 @@ using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using SoccerFantasy.Models;
+using SoccerFantasy.Models.ViewModels;
 
 namespace SoccerFantasy.Controllers;
 
@@ -22,12 +23,6 @@ public class HomeController : Controller
         return View();
     }
 
-    //[HttpGet]
-    //public IActionResult TeamPage()
-    //{
-    //    return View();
-    //}
-
     [HttpGet]
     public IActionResult TeamsPage()
     {
@@ -39,8 +34,9 @@ public class HomeController : Controller
     public IActionResult PlayerPage(Guid playerId)
     {
         Player playerQuery = dataContext.players
-            .Include(player => player.teamRef)
-            .First(player => player.playerId == playerId);
+            .Include(p=> p.goals)
+            .Include(p => p.teamRef)
+            .First(p => p.playerId == playerId);
 
         Console.WriteLine($"Player is: {playerQuery.name}");
         return View(playerQuery);
@@ -109,7 +105,76 @@ public class HomeController : Controller
         }
     }
 
-    
-
+    [HttpGet]
+    public IActionResult Fixtures()
+    {
+        var count = (dataContext.teams.Count() / 2) - 1;
+        var matches = dataContext.matches
+            .Include(m => m.homeTeam)
+            .Include(m => m.awayTeam)
+            .Include(m => m.homeGoals)
+            .Include(m => m.awayGoals)
+            .Where(m => m.matchPlayed == false)
+            .OrderBy(m => m.date)
+            .Take(count)
+            .ToList();
+        return View(matches);
+    }
+    [HttpGet]
+    public IActionResult SimulateMatches()
+    {
+        SimMatch simMatch = new SimMatch(dataContext);
+        var count = (dataContext.teams.Count() / 2) - 1;
+        var matches = dataContext.matches
+            .Include(m => m.homeTeam)
+            .ThenInclude(m=> m.players)
+            .Include(m => m.awayTeam)
+            .ThenInclude(m=> m.players)
+            .Include(m => m.homeGoals)
+            .Include(m => m.awayGoals)
+            .Where(m => m.matchPlayed == false)
+            .OrderBy(m => m.date)
+            .Take(count)
+            .ToList();
+        simMatch.SimMatches(matches);
+        var matches2 = dataContext.matches
+    .Include(m => m.homeTeam)
+    .Include(m => m.awayTeam)
+    .Include(m => m.homeGoals)
+    .Include(m => m.awayGoals)
+    .Where(m => m.matchPlayed == false)
+    .OrderBy(m => m.date)
+    .Take(count)
+    .ToList();
+        return Json(new { success = true, message = "Simulation successful" });
+    }
+    [HttpGet]
+    public IActionResult Table()
+    {
+        var teams = dataContext.teams
+            .OrderByDescending(t => t.points)
+            .ToList();
+        return View(teams);
+    }
+    [HttpGet]
+    public IActionResult Stats()
+    {
+        var topScorers = dataContext.players
+            .Include(p=> p.goals)
+            .Include(p=> p.teamRef)
+            .OrderByDescending(p => p.goals.Count())
+            .Take(20)
+            .ToList();
+        List<Team> teams = dataContext.teams
+            .Include(t=> t.players)
+            .OrderByDescending(t => t.goalDiff)
+            .ToList();
+        StatsViewModel viewModel = new StatsViewModel()
+        {
+            topScorers = topScorers,
+            teamsGoals = teams
+        };
+        return View(viewModel);
+    }
 }
 

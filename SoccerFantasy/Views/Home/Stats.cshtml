@@ -1,0 +1,89 @@
+﻿@model SoccerFantasy.Models.ViewModels.StatsViewModel
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col">
+                <h2>Top Scorers</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Player</th>
+                            <th>Club</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int pos = 1;
+                        }
+                        @foreach (Player player in Model.topScorers)
+                        {
+                            <tr>
+                                <td>@pos</td>
+                                <td>@player.name</td>
+                                <td>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="@player.teamRef.clubLogo" width="35" height="35"/>
+                                        </div>
+                                        <div class="col">
+                                            @player.teamName
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">@player.goals.Count()</td>
+                            </tr>
+                            pos += 1;
+                        }
+                    </tbody>
+                </table>
+            </div>
+            <div class="col">
+                <h2>Teams with most goals</h2>
+                <table class="table table-bordered">
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Club</th>
+                            <th>Value</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        @{
+                            int pos2 = 1;
+                        }
+                        @foreach (Team team in Model.teamsGoals)
+                        {
+                            <tr>
+                                <td>@pos2</td>
+                                <td>@team.name</td>
+                                <td>
+                                    <div class="row">
+                                        <div class="col">
+                                            <img src="@team.clubLogo" width="35" height="35" />
+                                        </div>
+                                        <div class="col">
+                                            @team.name
+                                        </div>
+                                    </div>
+                                </td>
+                                <td class="text-center">@team.goalDiff</td>
+                            </tr>
+                            pos2 += 1;
+                        }
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</body>
+</html>

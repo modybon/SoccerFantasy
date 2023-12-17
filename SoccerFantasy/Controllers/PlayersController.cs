@@ -17,11 +17,21 @@ namespace SoccerFantasy.Controllers
         public ActionResult getPlayersByPosition(string position)
         {
             var c = CurrentUser.Instance.fantasyTeam.players;
-            var players = dataContext.players
-                .Where(p => p.position.Contains(position))
-                .AsEnumerable()
-                .Except(CurrentUser.Instance.fantasyTeam.players)
-                .ToList();
+            List<Player> players;
+            if(CurrentUser.Instance.fantasyTeam.players != null)
+            {
+                players = dataContext.players
+                    .Where(p => p.position.Contains(position))
+                    .AsEnumerable()
+                    .Except(CurrentUser.Instance.fantasyTeam.players)
+                    .ToList();
+            }
+            else {
+                players = dataContext.players
+                    .Where(p => p.position.Contains(position))
+                    .AsEnumerable()
+                    .ToList();
+            }
             return Json(players);
         }
 

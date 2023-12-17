@@ -28,11 +28,9 @@ namespace SoccerFantasy.Models
         
         public string date { get; set; }
 
-        [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte homeScore { get; set; } = 0;
+        public virtual List<Goal> homeGoals { get; set; }
 
-        [Column(TypeName = "TINYINT UNSIGNED")]
-        public byte awayScore { get; set; } = 0;
+        public virtual List<Goal> awayGoals { get; set; }
 
         [Column(TypeName = "TINYINT UNSIGNED")]
         public byte homePossesion { get; set; } = 0;
@@ -47,6 +45,8 @@ namespace SoccerFantasy.Models
         public byte awayTotalShots { get; set; } = 0;
 
         public bool matchPlayed { get; set; } = false;
+
+        public int minute { get; set; } = 0;
     }
 }
 
